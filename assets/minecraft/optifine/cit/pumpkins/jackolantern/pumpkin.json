@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"top": "block/pumpkin_top",
+		"front": "block/jack_o_lantern",
+		"side": "block/pumpkin_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [69, -28.25, 0],
+			"scale": [0.20117, 0.20117, 0.20117]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 117, 0],
+			"scale": [0.26172, 0.26172, 0.26172]
+		},
+		"ground": {
+			"scale": [0.29492, 0.29492, 0.29492]
+		}
+	}
+}

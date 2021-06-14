@@ -1,0 +1,53 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/mushroom_stem",
+		"1": "block/brown_mushroom_block",
+		"2": "block/mushroom_block_inside",
+		"particle": "block/mushroom_stem"
+	},
+	"elements": [
+		{
+			"from": [4, 2, 4],
+			"to": [12, 9, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 5], "texture": "#0"},
+				"east": {"uv": [0, 0, 8, 5], "texture": "#0"},
+				"south": {"uv": [0, 0, 8, 5], "texture": "#0"},
+				"west": {"uv": [0, 0, 8, 5], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#missing"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-1, 8, -1],
+			"to": [17, 11, 17],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 3], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 3], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [68, 45, 0],
+			"translation": [0, 0, -1],
+			"scale": [0.39648, 0.39648, 0.39648]
+		},
+		"firstperson_righthand": {
+			"scale": [0.28516, 0.28516, 0.28516]
+		},
+		"gui": {
+			"rotation": [19, 45, 0],
+			"scale": [0.62305, 0.62305, 0.62305]
+		},
+		"head": {
+			"translation": [0, 12.5, 0],
+			"scale": [1.82422, 1.82422, 1.82422]
+		}
+	}
+}
