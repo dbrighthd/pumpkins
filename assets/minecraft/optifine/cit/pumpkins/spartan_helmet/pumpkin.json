@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "./Helmet",
-		"1": "./Red_Feather",
-		"particle": "./Helmet"
+		"0": "./helmet_texture",
+		"1": "./red_feather_texture",
+		"particle": "./helmet_texture"
 	},
 	"elements": [
 		{

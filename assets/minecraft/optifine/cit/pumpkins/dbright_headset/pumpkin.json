@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "./Simple",
-		"particle": "./Simple"
+		"0": "./simples",
+		"particle": "./simples"
 	},
 	"elements": [
 		{
@@ -117,7 +117,7 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [68, 45, 0],
-			"translation": [0, 0, -1],
+			"translation": [1, 0, -1],
 			"scale": [0.39648, 0.39648, 0.39648]
 		},
 		"firstperson_righthand": {

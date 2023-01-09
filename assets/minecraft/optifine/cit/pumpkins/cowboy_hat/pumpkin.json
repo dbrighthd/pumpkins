@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "./Cowboy_hat",
-		"1": "./Cowboy_Hat_Base",
-		"particle": "./Cowboy_hat"
+		"0": "./cowboy_hats",
+		"1": "./cowboy_hat_bases",
+		"particle": "./cowboy_hats"
 	},
 	"elements": [
 		{
