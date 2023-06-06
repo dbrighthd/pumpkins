@@ -1,0 +1,76 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"0": "block/lime_wool",
+		"particle": "block/lime_wool"
+	},
+	"elements": [
+		{
+			"from": [4.5, 9.5, -0.5],
+			"to": [6.5, 11.5, 1.5],
+			"faces": {
+				"north": {"uv": [0, 2, 2, 0], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 0], "texture": "#0"},
+				"south": {"uv": [0, 2, 2, 0], "texture": "#0"},
+				"west": {"uv": [0, 2, 2, 0], "texture": "#0"},
+				"up": {"uv": [0, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [0, 2, 2, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 9, 0],
+			"to": [5, 12, 1],
+			"faces": {
+				"north": {"uv": [0, 3, 2, 0], "texture": "#0"},
+				"east": {"uv": [0, 3, 1, 0], "texture": "#0"},
+				"south": {"uv": [0, 3, 2, 0], "texture": "#0"},
+				"west": {"uv": [0, 3, 1, 0], "texture": "#0"},
+				"up": {"uv": [0, 3, 2, 2], "texture": "#0"},
+				"down": {"uv": [0, 1, 2, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 9, 0],
+			"to": [8, 12, 1],
+			"faces": {
+				"north": {"uv": [0, 3, 2, 0], "texture": "#0"},
+				"east": {"uv": [0, 3, 1, 0], "texture": "#0"},
+				"south": {"uv": [0, 3, 2, 0], "texture": "#0"},
+				"west": {"uv": [0, 3, 1, 0], "texture": "#0"},
+				"up": {"uv": [0, 3, 2, 2], "texture": "#0"},
+				"down": {"uv": [0, 1, 2, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [69, -28.25, 0],
+			"translation": [0, -4, 0],
+			"scale": [0.55273, 0.55273, 0.55273]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 117, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.55859, 0.55859, 0.55859]
+		},
+		"ground": {
+			"translation": [2.25, 0, 5],
+			"scale": [0.71289, 0.71289, 0.71289]
+		},
+		"gui": {
+			"rotation": [45, 135, 0],
+			"translation": [9, 7, 12],
+			"scale": [1.47852, 1.47852, 1.47852]
+		},
+		"head": {
+			"rotation": [0, 0, 35.5],
+			"translation": [-0.5, 4.5, 4.25],
+			"scale": [1.45508, 1.45508, 1.45508]
+		},
+		"fixed": {
+			"translation": [4.5, -3, 11.75],
+			"scale": [1.66016, 1.66016, 1.66016]
+		}
+	}
+}
