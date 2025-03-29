@@ -1524,7 +1524,7 @@
         }
       },
       {
-        "when": "Bongo Witch Hat",
+        "when": "Melody Witch Hat",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/witch_hat/bongo_witch_hat/pumpkin"
