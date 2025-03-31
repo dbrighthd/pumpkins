@@ -26,7 +26,7 @@
         }
       },
       {
-        "when": "Dum",
+        "when": ["Dum","DUM","dum"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/amongus/dum/pumpkin"
@@ -1545,21 +1545,21 @@
         }
       },
       {
-        "when": "Phase 1 Clone Trooper Helmet",
+        "when": ["Phase 1 Clone Trooper Helmet", "P1 Clone Trooper Helmet"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/sw/p1clonetrooper/pumpkin"
         }
       },
       {
-        "when": "Phase 2 Clone Trooper Helmet",
+        "when": ["Phase 2 Clone Trooper Helmet", "P2 Clone Trooper Helmet"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/sw/p2clonetrooper/pumpkin"
         }
       },
       {
-        "when": "Storm Trooper Helmet",
+        "when": ["Storm Trooper Helmet", "Stormtrooper Helmet"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/sw/stormtrooper/pumpkin"
