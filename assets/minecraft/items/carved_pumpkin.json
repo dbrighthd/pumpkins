@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when": "Teto",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/triplebaka/teto/pumpkin"
+        }
+      },
+      {
         "when": "Cheese",
         "model": {
           "type": "minecraft:model",

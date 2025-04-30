@@ -1,0 +1,150 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			],
+			"submodels": [
+				{
+					"id": "right_drill",
+					"invertAxis": "xy",
+					"translate": [-6, 31, 0],
+					"texture": "tetohair.png",
+					"textureSize": [64, 64],
+					"boxes": [
+						{"coordinates": [-2, -2.5, -2, 4, 3, 4], "textureOffset": [0, 0]},
+						{"coordinates": [-1.5, -4.5, -1.5, 3, 3, 3], "textureOffset": [0, 7]},
+						{"coordinates": [-1, -6, -1, 2, 3, 2], "textureOffset": [0, 22]}
+					],
+					"submodels": [
+						{
+							"id": "right_flame",
+							"invertAxis": "xy",
+							"translate": [0, 0.3, 0],
+							"boxes": [
+								{"coordinates": [-1, -0.5, -1, 2, 1, 2], "textureOffset": [31, 5]}
+							],
+							"submodels": [
+								{
+									"id": "rflame1",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [-1, 0, -1, 2, 3, 2], "textureOffset": [31, 0]}
+									]
+								},
+								{
+									"id": "rflame2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [-1, 0, -1, 2, 3, 2], "textureOffset": [31, 7]}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "left_drill",
+					"invertAxis": "xy",
+					"translate": [6, 31, 0],
+					"texture": "tetohair.png",
+					"textureSize": [64, 64],
+					"boxes": [
+						{"coordinates": [-2, -2.5, -2, 4, 3, 4], "textureOffset": [0, 0]},
+						{"coordinates": [-1.5, -4.5, -1.5, 3, 3, 3], "textureOffset": [0, 7]},
+						{"coordinates": [-1, -6, -1, 2, 3, 2], "textureOffset": [0, 22]}
+					],
+					"submodels": [
+						{
+							"id": "left_flame",
+							"invertAxis": "xy",
+							"translate": [0, 0.3, 0],
+							"boxes": [
+								{"coordinates": [-1, -0.5, -1, 2, 1, 2], "textureOffset": [31, 5]}
+							],
+							"submodels": [
+								{
+									"id": "lflame1",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [-1, 0, -1, 2, 3, 2], "textureOffset": [31, 0]}
+									]
+								},
+								{
+									"id": "lflame2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [-1, 0, -1, 2, 3, 2], "textureOffset": [31, 7]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.yspeed2": "(var.counter42-pos_y)/(frame_time)",
+					"var.zspeed2": "((var.counter92-pos_z)/(frame_time))",
+					"var.xspeed2": "((var.counter82-pos_x)/(frame_time))",
+					"var.rot_yspeed2" : "((var.tetocounter1-rot_y)/frame_time)",
+					
+					"var.movement_xz_angle_teto": "atan2(-var.xspeed2,var.zspeed2)",
+					"var.angle_diff_teto": "(rot_y+pi)-var.movement_xz_angle_teto",
+					"var.left_teto_linear_vel": "-1 * var.rot_yspeed2",
+					"var.right_teto_linear_vel": "1 * var.rot_yspeed2",
+					"var.left_angular_velocity": "var.left_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto)+ var.left_teto_linear_vel)*cos(var.left_target_angle_teto) - var.left_angular_velocity - 50 * sin(var.left_target_angle_teto+rot_x) + var.yspeed2 * sin(var.left_target_angle_teto) - 0.6 * var.left_angular_velocity)",
+					"var.left_real_angle_teto": "var.left_real_angle_teto - (var.left_real_angle_teto-(var.left_target_angle_teto))/2",
+					"var.left_target_angle_teto": "if(var.fallflying2 == -1, (var.left_target_angle_teto + (frame_time * var.left_angular_velocity)), -var.fallflyinglerp2*torad(135))",
+					"var.right_angular_velocity": "var.right_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto) + var.right_teto_linear_vel)*cos(var.right_target_angle_teto) - var.right_angular_velocity - 50 * sin(var.right_target_angle_teto+rot_x) + var.yspeed2 * sin(var.right_target_angle_teto)- 0.6 * var.right_angular_velocity)",
+					"var.right_real_angle_teto": "var.right_real_angle_teto - (var.right_real_angle_teto-(var.right_target_angle_teto))/2",
+					"var.right_target_angle_teto": "if(var.fallflying2 == -1, (var.right_target_angle_teto + (frame_time * var.right_angular_velocity)), -var.fallflyinglerp2*torad(135))",
+					
+					"var.xz_speed_teto": "sqrt(pow(var.xspeed2,2) + pow(var.zspeed2,2))",
+					"var.teto_vert_angle" : "atan2(var.yspeed2,var.xz_speed_teto)",
+					"var.teto_s_mult" : "clamp(cos(var.teto_vert_angle - (rot_x)), 0,1)",
+					"var.totalspeed2": "sqrt((var.xspeed2 * var.xspeed2) + (var.yspeed2 * var.yspeed2) + (var.zspeed2 * var.zspeed2))",
+					"var.fallflying2": "if(nbt(FallFlying,raw:1b),1,-1)",
+					"var.helmet": "if(nbt(equipment.head,raw:iregex:.*helmet.*),1,0)",
+					"var.isinvis": "if(nbt(equipment.chest,raw:iregex:.*invisible.*),0,1)",
+					"var.fallflyinglerp2": "clamp(var.fallflyinglerp2 + 2*frame_time * var.fallflying2,0,1)",
+					"var.fallflyinglerpslow": "clamp(var.fallflyinglerp2 + 0.5*frame_time * var.fallflying2,0,1)",
+					"right_flame.sy": "clamp(var.totalspeed2/10 * var.fallflyinglerpslow* var.teto_s_mult,0,3)",
+					"rflame1.sy": "abs(sin(time/1.2))",
+					"rflame2.sy": "abs(cos(time/1.2))",
+					"left_flame.sy": "right_flame.sy",
+					"lflame1.sy": "rflame1.sy",
+					"lflame2.sy": "rflame2.sy",
+					"right_drill.rx": "var.right_real_angle_teto",
+					"right_drill.ty": "-31",
+					"right_drill.tz": "2 + ((var.fallflyinglerp2*2) * 1)",
+					"right_drill.tx": "-6 - var.helmet",
+					"left_drill.rx": "var.left_real_angle_teto",
+					"left_drill.ty": "-31",
+					"head.ry": "if(var.isinvis == 1 && var.fallflying2 == 1, 0, head.ry)",
+					"left_drill.tz": "2 + ((var.fallflyinglerp2*2) * 1)",
+					"left_drill.tx": "6 + var.helmet",
+					"var.counter42": "var.counter4prev2",
+					"var.counter4prev2": "pos_y",
+					"var.counter82": "var.counter8prev2",
+					"var.counter8prev2": "pos_x",
+					"var.counter92": "var.counter9prev2",
+					"var.counter9prev2": "pos_z",
+					"var.tetocounter1": "var.tetocounter1prev",
+					"var.tetocounter1prev": "rot_y"
+
+				}
+			]
+		}
+	]
+}
