@@ -1,0 +1,90 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			],
+			"submodels": [
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [0, 30, 0],
+					"submodels": [
+						{
+							"id": "left_drill",
+							"invertAxis": "xy",
+							"translate": [1, 0, 0],
+							"texture": "neruhair.png",
+							"textureSize": [64, 64],
+							"boxes": [
+								{"coordinates": [-1, -1, -1, 1, 2, 2], "textureOffset": [0, 0]},
+								{"coordinates": [-4, -0.5, -1.5, 3, 3, 3], "textureOffset": [16, 0]},
+								{"coordinates": [-4, -3.5, -1.5, 2, 3, 3], "textureOffset": [17, 0]},
+								{"coordinates": [-5, -21.5, -1.5, 2, 23, 3], "textureOffset": [42, 0]},
+								{"coordinates": [-3.1, -3.5, -1, 1, 7, 2], "textureOffset": [43, 1]},
+								{"coordinates": [-3, -19.5, -1.5, 1, 14, 3], "textureOffset": [0, 34]},
+								{"coordinates": [-6, -19.5, -1.5, 1, 14, 3], "textureOffset": [0, 34]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.yspeed2": "(var.counter42-pos_y)/(frame_time)",
+					"var.zspeed2": "((var.counter92-pos_z)/(frame_time))",
+					"var.xspeed2": "((var.counter82-pos_x)/(frame_time))",
+					"var.rot_yspeed2": "((var.tetocounter1-rot_y)/frame_time)",
+					"var.movement_xz_angle_teto": "atan2(-var.xspeed2,var.zspeed2)",
+					"var.angle_diff_teto": "(rot_y+pi)-var.movement_xz_angle_teto",
+					"var.neru_time": "if(var.fallflying2 == 1, var.neru_time, time)",
+					"var.neru_target": "if(var.fallflying2 == 1, var.neru_target, var.left_target_angle_teto)",
+					"var.left_teto_linear_vel": "-1 * var.rot_yspeed2",
+					"var.right_teto_linear_vel": "1 * var.rot_yspeed2",
+					"var.left_angular_velocity": "var.left_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto)+ var.left_teto_linear_vel)*cos(var.left_target_angle_teto+rot_x) - var.left_angular_velocity - 10 * sin(var.left_target_angle_teto+rot_x) + var.yspeed2 * sin(var.left_target_angle_teto+rot_x) - 0.6 * var.left_angular_velocity)",
+					"var.left_real_angle_teto": "var.left_real_angle_teto - (var.left_real_angle_teto-(var.left_target_angle_teto))/2",
+					"var.propangle": "if(var.fallflying2 == 1, var.propangle + (var.propspeed * frame_time * 40), 0)",
+					"var.left_target_angle_teto": "if(var.fallflying2 == -1, (var.left_target_angle_teto + (frame_time * var.left_angular_velocity)), -var.fallflyinglerp4*(var.propangle))",
+					"var.xz_speed_teto": "sqrt(pow(var.xspeed2,2) + pow(var.zspeed2,2))",
+					"var.teto_vert_angle": "atan2(var.yspeed2,var.xz_speed_teto)",
+					"var.teto_s_mult": "clamp(cos(var.teto_vert_angle - (rot_x)), 0,1)",
+					"var.totalspeed2": "sqrt((var.xspeed2 * var.xspeed2) + (var.yspeed2 * var.yspeed2) + (var.zspeed2 * var.zspeed2))",
+					"var.fallflying2": "if(nbt(FallFlying,raw:1b),1,-1)",
+					"var.helmet": "if(nbt(equipment.head,raw:iregex:.*helmet.*),1,0)",
+					"var.isinvis": "if(nbt(equipment.chest,raw:iregex:.*invisible.*),0,1)",
+					"var.fallflyinglerp2": "clamp(var.fallflyinglerp2 + 2*frame_time * var.fallflying2,0,1)",
+					"var.fallflyinglerp3": "if(var.fallflyinglerp2 == 1, 1, -1)",
+					"var.fallflyinglerp4": "clamp(var.fallflyinglerp4+ 2*frame_time * var.fallflyinglerp3,0,1)",
+					"var.fallflyinglerpslow": "clamp(var.fallflyinglerp2 + 0.01*frame_time * var.fallflying2,0,1)",
+					"var.propspeed": "clamp(var.totalspeed2/10* var.fallflyinglerpslow* var.teto_s_mult,0.1,1)",
+					"right_flame.sy": "clamp(var.totalspeed2/10 * var.fallflyinglerpslow* var.teto_s_mult,0,1)",
+					"rflame1.sy": "abs(sin(time/1.2))",
+					"rflame2.sy": "abs(cos(time/1.2))",
+					"left_flame.sy": "right_flame.sy",
+					"lflame1.sy": "rflame1.sy",
+					"lflame2.sy": "rflame2.sy",
+					"left_drill.rx": "var.left_real_angle_teto",
+					"left_drill.ty": "0",
+					"bone.rz": "lerp(var.fallflyinglerp2,0,-pi/2)",
+					"head.ry": "if(var.isinvis == 1 && var.fallflying2 == 1, 0, head.ry)",
+					"left_drill.tz": "2 ",
+					"left_drill.tx": "4 + var.helmet - (var.fallflyinglerp2*2)",
+					"var.counter42": "var.counter4prev2",
+					"var.counter4prev2": "pos_y",
+					"var.counter82": "var.counter8prev2",
+					"var.counter8prev2": "pos_x",
+					"var.counter92": "var.counter9prev2",
+					"var.counter9prev2": "pos_z",
+					"var.tetocounter1": "var.tetocounter1prev",
+					"var.tetocounter1prev": "rot_y"
+				}
+			]
+		}
+	]
+}

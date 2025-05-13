@@ -97,22 +97,20 @@
 					"var.yspeed2": "(var.counter42-pos_y)/(frame_time)",
 					"var.zspeed2": "((var.counter92-pos_z)/(frame_time))",
 					"var.xspeed2": "((var.counter82-pos_x)/(frame_time))",
-					"var.rot_yspeed2" : "((var.tetocounter1-rot_y)/frame_time)",
-					
+					"var.rot_yspeed2": "((var.tetocounter1-rot_y)/frame_time)",
 					"var.movement_xz_angle_teto": "atan2(-var.xspeed2,var.zspeed2)",
 					"var.angle_diff_teto": "(rot_y+pi)-var.movement_xz_angle_teto",
 					"var.left_teto_linear_vel": "-1 * var.rot_yspeed2",
 					"var.right_teto_linear_vel": "1 * var.rot_yspeed2",
-					"var.left_angular_velocity": "var.left_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto)+ var.left_teto_linear_vel)*cos(var.left_target_angle_teto) - var.left_angular_velocity - 50 * sin(var.left_target_angle_teto+rot_x) + var.yspeed2 * sin(var.left_target_angle_teto) - 0.6 * var.left_angular_velocity)",
+					"var.left_angular_velocity": "var.left_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto)+ var.left_teto_linear_vel)*cos(var.left_target_angle_teto+(if(is_crawling,torad(45),rot_x))) - var.left_angular_velocity - 50 * sin(var.left_target_angle_teto+(if(is_crawling,torad(45),rot_x))) + var.yspeed2 * sin(var.left_target_angle_teto+(if(is_crawling,torad(45),rot_x))) - 0.6 * var.left_angular_velocity)",
 					"var.left_real_angle_teto": "var.left_real_angle_teto - (var.left_real_angle_teto-(var.left_target_angle_teto))/2",
 					"var.left_target_angle_teto": "if(var.fallflying2 == -1, (var.left_target_angle_teto + (frame_time * var.left_angular_velocity)), -var.fallflyinglerp2*torad(135))",
-					"var.right_angular_velocity": "var.right_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto) + var.right_teto_linear_vel)*cos(var.right_target_angle_teto) - var.right_angular_velocity - 50 * sin(var.right_target_angle_teto+rot_x) + var.yspeed2 * sin(var.right_target_angle_teto)- 0.6 * var.right_angular_velocity)",
+					"var.right_angular_velocity": "var.right_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto) + var.right_teto_linear_vel)*cos(var.right_target_angle_teto+(if(is_crawling,torad(45),rot_x))) - var.right_angular_velocity - 50 * sin(var.right_target_angle_teto+(if(is_crawling,torad(45),rot_x))) + var.yspeed2 * sin(var.right_target_angle_teto+rot_x+(if(is_crawling,torad(45),rot_x)))- 0.6 * var.right_angular_velocity)",
 					"var.right_real_angle_teto": "var.right_real_angle_teto - (var.right_real_angle_teto-(var.right_target_angle_teto))/2",
 					"var.right_target_angle_teto": "if(var.fallflying2 == -1, (var.right_target_angle_teto + (frame_time * var.right_angular_velocity)), -var.fallflyinglerp2*torad(135))",
-					
 					"var.xz_speed_teto": "sqrt(pow(var.xspeed2,2) + pow(var.zspeed2,2))",
-					"var.teto_vert_angle" : "atan2(var.yspeed2,var.xz_speed_teto)",
-					"var.teto_s_mult" : "clamp(cos(var.teto_vert_angle - (rot_x)), 0,1)",
+					"var.teto_vert_angle": "atan2(var.yspeed2,var.xz_speed_teto)",
+					"var.teto_s_mult": "clamp(cos(var.teto_vert_angle - (rot_x)), 0,1)",
 					"var.totalspeed2": "sqrt((var.xspeed2 * var.xspeed2) + (var.yspeed2 * var.yspeed2) + (var.zspeed2 * var.zspeed2))",
 					"var.fallflying2": "if(nbt(FallFlying,raw:1b),1,-1)",
 					"var.helmet": "if(nbt(equipment.head,raw:iregex:.*helmet.*),1,0)",
@@ -142,7 +140,6 @@
 					"var.counter9prev2": "pos_z",
 					"var.tetocounter1": "var.tetocounter1prev",
 					"var.tetocounter1prev": "rot_y"
-
 				}
 			]
 		}
