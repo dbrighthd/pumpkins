@@ -14,19 +14,19 @@
 				{
 					"id": "right_drill",
 					"invertAxis": "xy",
-					"translate": [-6, 31, 0],
+					"translate": [-6, 32, 0],
 					"texture": "tetohair.png",
 					"textureSize": [64, 64],
 					"boxes": [
-						{"coordinates": [-2, -2.5, -2, 4, 3, 4], "textureOffset": [0, 0]},
-						{"coordinates": [-1.5, -4.5, -1.5, 3, 3, 3], "textureOffset": [0, 7]},
-						{"coordinates": [-1, -6, -1, 2, 3, 2], "textureOffset": [0, 22]}
+						{"coordinates": [-2, -3.5, -2, 4, 3, 4], "textureOffset": [0, 0]},
+						{"coordinates": [-1.5, -5.5, -1.5, 3, 3, 3], "textureOffset": [0, 7]},
+						{"coordinates": [-1, -7, -1, 2, 3, 2], "textureOffset": [0, 22]}
 					],
 					"submodels": [
 						{
 							"id": "right_flame",
 							"invertAxis": "xy",
-							"translate": [0, 0.3, 0],
+							"translate": [0, -0.7, 0],
 							"boxes": [
 								{"coordinates": [-1, -0.5, -1, 2, 1, 2], "textureOffset": [31, 5]}
 							],
@@ -54,19 +54,19 @@
 				{
 					"id": "left_drill",
 					"invertAxis": "xy",
-					"translate": [6, 31, 0],
+					"translate": [6, 32, 0],
 					"texture": "tetohair.png",
 					"textureSize": [64, 64],
 					"boxes": [
-						{"coordinates": [-2, -2.5, -2, 4, 3, 4], "textureOffset": [0, 0]},
-						{"coordinates": [-1.5, -4.5, -1.5, 3, 3, 3], "textureOffset": [0, 7]},
-						{"coordinates": [-1, -6, -1, 2, 3, 2], "textureOffset": [0, 22]}
+						{"coordinates": [-2, -3.5, -2, 4, 3, 4], "textureOffset": [0, 0]},
+						{"coordinates": [-1.5, -5.5, -1.5, 3, 3, 3], "textureOffset": [0, 7]},
+						{"coordinates": [-1, -7, -1, 2, 3, 2], "textureOffset": [0, 22]}
 					],
 					"submodels": [
 						{
 							"id": "left_flame",
 							"invertAxis": "xy",
-							"translate": [0, 0.3, 0],
+							"translate": [0, -0.7, 0],
 							"boxes": [
 								{"coordinates": [-1, -0.5, -1, 2, 1, 2], "textureOffset": [31, 5]}
 							],
@@ -94,9 +94,10 @@
 			],
 			"animations": [
 				{
-					"var.yspeed2": "(var.counter42-pos_y)/(frame_time)",
-					"var.zspeed2": "((var.counter92-pos_z)/(frame_time))",
-					"var.xspeed2": "((var.counter82-pos_x)/(frame_time))",
+					"var.maxspeed": "1000000",
+					"var.yspeed2": "clamp((var.counter42-pos_y)/(frame_time),-var.maxspeed,var.maxspeed)",
+					"var.zspeed2": "clamp(((var.counter92-pos_z)/(frame_time)),-var.maxspeed,var.maxspeed)",
+					"var.xspeed2": "clamp(((var.counter82-pos_x)/(frame_time)),-var.maxspeed,var.maxspeed)",
 					"var.rot_yspeed2": "((var.tetocounter1-rot_y)/frame_time)",
 					"var.movement_xz_angle_teto": "atan2(-var.xspeed2,var.zspeed2)",
 					"var.angle_diff_teto": "(rot_y+pi)-var.movement_xz_angle_teto",
@@ -105,7 +106,7 @@
 					"var.left_angular_velocity": "var.left_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto)+ var.left_teto_linear_vel)*cos(var.left_target_angle_teto+(if(is_crawling,torad(45),rot_x))) - var.left_angular_velocity - 50 * sin(var.left_target_angle_teto+(if(is_crawling,torad(45),rot_x))) + var.yspeed2 * sin(var.left_target_angle_teto+(if(is_crawling,torad(45),rot_x))) - 0.6 * var.left_angular_velocity)",
 					"var.left_real_angle_teto": "var.left_real_angle_teto - (var.left_real_angle_teto-(var.left_target_angle_teto))/2",
 					"var.left_target_angle_teto": "if(var.fallflying2 == -1, (var.left_target_angle_teto + (frame_time * var.left_angular_velocity)), -var.fallflyinglerp2*torad(135))",
-					"var.right_angular_velocity": "var.right_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto) + var.right_teto_linear_vel)*cos(var.right_target_angle_teto+(if(is_crawling,torad(45),rot_x))) - var.right_angular_velocity - 50 * sin(var.right_target_angle_teto+(if(is_crawling,torad(45),rot_x))) + var.yspeed2 * sin(var.right_target_angle_teto+rot_x+(if(is_crawling,torad(45),rot_x)))- 0.6 * var.right_angular_velocity)",
+					"var.right_angular_velocity": "var.right_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto) + var.right_teto_linear_vel)*cos(var.right_target_angle_teto+(if(is_crawling,torad(45),rot_x))) - var.right_angular_velocity - 50 * sin(var.right_target_angle_teto+(if(is_crawling,torad(45),rot_x))) + var.yspeed2 * sin(var.right_target_angle_teto+(if(is_crawling,torad(45),rot_x)))- 0.6 * var.right_angular_velocity)",
 					"var.right_real_angle_teto": "var.right_real_angle_teto - (var.right_real_angle_teto-(var.right_target_angle_teto))/2",
 					"var.right_target_angle_teto": "if(var.fallflying2 == -1, (var.right_target_angle_teto + (frame_time * var.right_angular_velocity)), -var.fallflyinglerp2*torad(135))",
 					"var.xz_speed_teto": "sqrt(pow(var.xspeed2,2) + pow(var.zspeed2,2))",
@@ -121,14 +122,26 @@
 					"rflame1.sy": "abs(sin(time/1.2))",
 					"rflame2.sy": "abs(cos(time/1.2))",
 					"left_flame.sy": "right_flame.sy",
+					"var.right_spring_target": "clamp(1 - (var.yspeed2 * 0.015 * cos(var.right_real_angle_teto)) + abs(var.right_angular_velocity) * 0.1, 0.5, 1.5)",
+					"var.right_spring_stretch": "var.right_spring_stretch_prev",
+					"var.right_spring_velocity": "clamp(var.right_spring_velocity + frame_time * (-50 * (var.right_spring_stretch - var.right_spring_target) - 2.0 * var.right_spring_velocity),-3,3)",
+					"var.right_spring_stretch_new": "var.right_spring_stretch + var.right_spring_velocity * frame_time",
+					"var.right_spring_stretch_prev": "var.right_spring_stretch_new",
+					"right_drill.sy": "if(var.fallflying2 == -1,0.5*(0.3 * atan((var.right_spring_stretch_new-1)/0.3)) + 1,1)",
+					"var.left_spring_target": "clamp(1 - (var.yspeed2 * 0.015 * cos(var.left_real_angle_teto)) + abs(var.left_angular_velocity) * 0.1, 0.5, 1.5)",
+					"var.left_spring_stretch": "var.left_spring_stretch_prev",
+					"var.left_spring_velocity": "clamp(var.left_spring_velocity + frame_time * (-50 * (var.left_spring_stretch - var.left_spring_target) - 2.0 * var.left_spring_velocity),-3,3)",
+					"var.left_spring_stretch_new": "var.left_spring_stretch + var.left_spring_velocity * frame_time",
+					"var.left_spring_stretch_prev": "var.left_spring_stretch_new",
+					"left_drill.sy": "if(var.fallflying2 == -1,0.5*(0.3 * atan((var.left_spring_stretch_new-1)/0.3)) + 1,1)",
 					"lflame1.sy": "rflame1.sy",
 					"lflame2.sy": "rflame2.sy",
 					"right_drill.rx": "var.right_real_angle_teto",
-					"right_drill.ty": "-31",
+					"right_drill.ty": "-32",
 					"right_drill.tz": "2 + ((var.fallflyinglerp2*2) * 1)",
 					"right_drill.tx": "-6 - var.helmet",
 					"left_drill.rx": "var.left_real_angle_teto",
-					"left_drill.ty": "-31",
+					"left_drill.ty": "-32",
 					"head.ry": "if(var.isinvis == 1 && var.fallflying2 == 1, 0, head.ry)",
 					"left_drill.tz": "2 + ((var.fallflyinglerp2*2) * 1)",
 					"left_drill.tx": "6 + var.helmet",
@@ -142,6 +155,12 @@
 					"var.tetocounter1prev": "rot_y"
 				}
 			]
+		},
+		{
+			"part": "bone",
+			"id": "bone",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
 		}
 	]
 }
