@@ -5,6 +5,69 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when": ["Shepherd Hat"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/villager/shepherd_hat"
+        }
+      },
+      {
+        "when": ["Fletcher Hat"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/villager/fletcher_hat"
+        }
+      },
+      {
+        "when": ["Fisherman Hat"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/villager/fisherman_hat"
+        }
+      },
+      {
+        "when": ["Butcher Headband"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/villager/butcher_headband"
+        }
+      },
+      {
+        "when": ["Librarian Hat", "Librarian Book"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/villager/librarian_hat"
+        }
+      },
+      {
+        "when": ["Weaponsmith Eyepatch"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/villager/weaponsmith_eyepatch"
+        }
+      },
+      {
+        "when": ["Cartographer Monocle"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/villager/cartographer_monacle"
+        }
+      },
+      {
+        "when": ["Armorer Mask"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/villager/armorer_mask"
+        }
+      },
+      {
+        "when": ["Straw Hat", "Farmer Hat"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/villager/farmer_hat"
+        }
+      },
+      {
         "when": "Teto",
         "model": {
           "type": "minecraft:model",

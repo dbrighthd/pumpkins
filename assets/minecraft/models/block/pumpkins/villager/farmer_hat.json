@@ -1,0 +1,59 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/orientable",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/pumpkins/villager/farmer_hat",
+		"particle": "item/pumpkins/villager/farmer_hat"
+	},
+	"elements": [
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 0]},
+			"faces": {
+				"north": {"uv": [4, 12.5, 8, 14.5], "texture": "#0"},
+				"east": {"uv": [0, 12.5, 4, 14.5], "texture": "#0"},
+				"south": {"uv": [12, 12.5, 16, 14.5], "texture": "#0"},
+				"west": {"uv": [8, 12.5, 12, 14.5], "texture": "#0"},
+				"up": {"uv": [8, 12.5, 4, 8.5], "texture": "#0"},
+				"down": {"uv": [12, 8.5, 8, 12.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-8, 8, -8],
+			"to": [24, 8, 24],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, 6, -8]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"down": {"uv": [0, 8, 8, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [26.29, 27.56, 22.05],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"firstperson_righthand": {
+			"rotation": [17.75, -42.75, 0],
+			"scale": [0.29, 0.29, 0.29]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [32, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.91, 0.91, 0.91]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"scale": [0.63, 0.63, 0.63]
+		}
+	}
+}

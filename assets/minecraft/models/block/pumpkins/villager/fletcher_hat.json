@@ -1,0 +1,78 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/orientable",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "item/pumpkins/villager/fletcher",
+		"particle": "item/pumpkins/villager/fletcher"
+	},
+	"elements": [
+		{
+			"from": [0, 4, 0],
+			"to": [16, 14, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [4, 4, 8, 6.5], "texture": "#2"},
+				"east": {"uv": [0, 4, 4, 6.5], "texture": "#2"},
+				"south": {"uv": [12, 4, 16, 6.5], "texture": "#2"},
+				"west": {"uv": [8, 4, 12, 6.5], "texture": "#2"},
+				"up": {"uv": [8, 4, 4, 0], "texture": "#2"},
+				"down": {"uv": [12, 0, 8, 4], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-1, 4, -1],
+			"to": [17, 14, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
+			"faces": {
+				"north": {"uv": [4, 7, 8, 9.5], "texture": "#2"},
+				"east": {"uv": [0, 7, 4, 9.5], "texture": "#2"},
+				"south": {"uv": [12, 7, 16, 9.5], "texture": "#2"},
+				"west": {"uv": [8, 7, 12, 9.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-1, 4, 17],
+			"to": [17, 14, -1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 18]},
+			"faces": {
+				"north": {"uv": [12, 7, 16, 9.5], "texture": "#2"},
+				"east": {"uv": [4, 7, 0, 9.5], "texture": "#2"},
+				"south": {"uv": [4.5, 7, 8.5, 9.5], "texture": "#2"},
+				"west": {"uv": [12, 7, 8, 9.5], "texture": "#2"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [26.29, 27.56, 22.05],
+			"translation": [0.25, 1.75, 0.75],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 110, 0],
+			"translation": [-0.5, 2.75, 0],
+			"scale": [0.29, 0.29, 0.29]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-165, 34, -180],
+			"translation": [0, 0.25, 0],
+			"scale": [0.61, 0.61, 0.61]
+		},
+		"head": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.91, 0.91, 0.91]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -2],
+			"scale": [0.74, 0.74, 0.74]
+		}
+	}
+}
