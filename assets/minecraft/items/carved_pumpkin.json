@@ -2488,18 +2488,6 @@
       },
       {
         "when": [
-          "Halo",
-          "halo",
-          "ipattern:Halo",
-          "iregex:.*Halo.*"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/misty_goggles/pumpkin"
-        }
-      },
-      {
-        "when": [
           "Monocle",
           "monocle",
           "ipattern:Monocle",
@@ -2724,18 +2712,6 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/you_saw_nothing/pumpkin"
-        }
-      },
-      {
-        "when": [
-          "Axolotl Beanie",
-          "axolotl beanie",
-          "ipattern:Axolotl Beanie",
-          "iregex:.*Axolotl Beanie.*"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/purple/pumpkin"
         }
       },
       {
