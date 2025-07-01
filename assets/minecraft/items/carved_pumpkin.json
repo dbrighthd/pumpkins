@@ -75,1561 +75,2700 @@
         }
       },
       {
-        "when": "Cheese",
+        "when": [
+          "Cheese",
+          "cheese",
+          "ipattern:Cheese",
+          "iregex:.*Cheese.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/amongus/cheese/pumpkin"
         }
       },
       {
-        "when": "Cherry",
+        "when": [
+          "Cherry",
+          "cherry",
+          "ipattern:Cherry",
+          "iregex:.*Cherry.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/amongus/cherry/pumpkin"
         }
       },
       {
-        "when": "Baby Crewmate",
+        "when": [
+          "Baby Crewmate",
+          "baby crewmate",
+          "ipattern:Baby Crewmate",
+          "iregex:.*Baby Crewmate.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/amongus/child/pumpkin"
         }
       },
       {
-        "when": ["Dum","DUM","dum"],
+        "when": [
+          "Dum",
+          "dum",
+          "ipattern:DUM",
+          "iregex:.*Dum.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/amongus/dum/pumpkin"
         }
       },
       {
-        "when": "Flamingo Floaty",
+        "when": [
+          "Flamingo Floaty",
+          "flamingo floaty",
+          "ipattern:Flamingo FLoaty",
+          "iregex:.*Flamingo Floaty.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/amongus/flamingo_floaty/pumpkin"
         }
       },
       {
-        "when": "Plunger",
+        "when": [
+          "Plunger",
+          "plunger",
+          "ipattern:Plunger",
+          "iregex:.*Plunger.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/amongus/plunger/pumpkin"
         }
       },
       {
-        "when": "Stickman",
+        "when": [
+          "Stickman",
+          "stickman",
+          "ipattern:Stickman",
+          "iregex:.*Stickman.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/amongus/stickman/pumpkin"
         }
       },
       {
-        "when": "Toilet Paper",
+        "when": [
+          "Toilet Paper",
+          "toilet paper",
+          "ipattern:Toilet Paper",
+          "iregex:.*Toilet Paper.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/amongus/toilet_paper_roll/pumpkin"
         }
       },
       {
-        "when": "Tophat",
+        "when": [
+          "Tophat",
+          "tophat",
+          "ipattern:Tophat",
+          "iregex:.*Tophat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/amongus/tophat/pumpkin"
         }
       },
       {
-        "when": "Albino Axolotl",
+        "when": [
+          "Albino Axolotl",
+          "albino axolotl",
+          "ipattern:Albino Axolotl",
+          "iregex:.*Albino Axolotl.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_albino/pumpkin"
         }
       },
       {
-        "when": "Axolotl Beanie",
+        "when": [
+          "Axolotl Beanie",
+          "axolotl beanie",
+          "ipattern:Axolotl Beanie",
+          "iregex:.*Axolotl Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_beanie/pumpkin"
         }
       },
       {
-        "when": "Albino Axolotl Beanie",
+        "when": [
+          "Albino Axolotl Beanie",
+          "albino axolotl beanie",
+          "ipattern:Albino Axolotl Beanie",
+          "iregex:.*Albino Axolotl Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_beanie_albino/pumpkin"
         }
       },
       {
-        "when": "Black Axolotl Beanie",
+        "when": [
+          "Black Axolotl Beanie",
+          "black axolotl beanie",
+          "ipattern:Black Axolotl Beanie",
+          "iregex:.*Black Axolotl Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_beanie_black/pumpkin"
         }
       },
       {
-        "when": "Blue Axolotl Beanie",
+        "when": [
+          "Blue Axolotl Beanie",
+          "blue axolotl beanie",
+          "ipattern:Blue Axolotl Beanie",
+          "iregex:.*Blue Axolotl Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_beanie_blue/pumpkin"
         }
       },
       {
-        "when": "Cyan Axolotl Beanie",
+        "when": [
+          "Cyan Axolotl Beanie",
+          "cyan axolotl beanie",
+          "ipattern:Cyan Axolotl Beanie",
+          "iregex:.*Cyan Axolotl Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_beanie_cyan/pumpkin"
         }
       },
       {
-        "when": "Gold Axolotl Beanie",
+        "when": [
+          "Gold Axolotl Beanie",
+          "gold axolotl beanie",
+          "ipattern:Gold Axolotl Beanie",
+          "iregex:.*Gold Axolotl Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_beanie_gold/pumpkin"
         }
       },
       {
-        "when": "Green Axolotl Beanie",
+        "when": [
+          "Green Axolotl Beanie",
+          "green axolotl beanie",
+          "ipattern:Green Axolotl Beanie",
+          "iregex:.*Green Axolotl Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_beanie_green/pumpkin"
         }
       },
       {
-        "when": "Wild Axolotl Beanie",
+        "when": [
+          "Wild Axolotl Beanie",
+          "wild axolotl beanie",
+          "ipattern:Wild Axolotl Beanie",
+          "iregex:.*Wild Axolotl Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_beanie_wild/pumpkin"
         }
       },
       {
-        "when": "Black Axolotl",
+        "when": [
+          "Black Axolotl",
+          "black axolotl",
+          "ipattern:Black Axolotl",
+          "iregex:.*Black Axolotl.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_black/pumpkin"
         }
       },
       {
-        "when": "Blue Axolotl",
+        "when": [
+          "Blue Axolotl",
+          "blue axolotl",
+          "ipattern:Blue Axolotl",
+          "iregex:.*Blue Axolotl.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_blue/pumpkin"
         }
       },
       {
-        "when": "Cyan Axolotl",
+        "when": [
+          "Cyan Axolotl",
+          "cyan axolotl",
+          "ipattern:Cyan Axolotl",
+          "iregex:.*Cyan Axolotl.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_cyan/pumpkin"
         }
       },
       {
-        "when": "Gold Axolotl",
+        "when": [
+          "Gold Axolotl",
+          "gold axolotl",
+          "ipattern:Gold Axolotl",
+          "iregex:.*Gold Axolotl.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_gold/pumpkin"
         }
       },
       {
-        "when": "Green Axolotl",
+        "when": [
+          "Green Axolotl",
+          "green axolotl",
+          "ipattern:Green Axolotl",
+          "iregex:.*Green Axolotl.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_green/pumpkin"
         }
       },
       {
-        "when": "Wild Axolotl",
+        "when": [
+          "Wild Axolotl",
+          "wild axolotl",
+          "ipattern:Wild Axolotl",
+          "iregex:.*Wild Axolotl.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/axolotl_wild/pumpkin"
         }
       },
       {
-        "when": "Axolotl",
+        "when": [
+          "Axolotl",
+          "axolotl",
+          "ipattern:Axolotl",
+          "iregex:.*Axolotl.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/azolotl/pumpkin"
         }
       },
       {
-        "when": "Angry Bee",
+        "when": [
+          "Angry Bee",
+          "angry bee",
+          "ipattern:Angry Bee",
+          "iregex:.*Angry Bee.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/bees/bee/beeangry"
         }
       },
       {
-        "when": "Bee",
+        "when": [
+          "Bee",
+          "bee",
+          "ipattern:Bee",
+          "iregex:.*Bee.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/bees/bee/pumpkin"
         }
       },
       {
-        "when": "Frog Hat",
+        "when": [
+          "Frog Hat",
+          "frog hat",
+          "ipattern:Frog Hat",
+          "iregex:.*Frog Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/frog_hat/pumpkin"
         }
       },
       {
-        "when": "Sheep Horns",
+        "when": [
+          "Sheep Horns",
+          "sheep horns",
+          "ipattern:Sheep Horns",
+          "iregex:.*Sheep Horns.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/sheep_horns/pumpkin"
         }
       },
       {
-        "when": "Blue Turtle",
+        "when": [
+          "Blue Turtle",
+          "blue turtle",
+          "ipattern:Blue Turtle",
+          "iregex:.*Blue Turtle.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/turtle/blue/pumpkin"
         }
       },
       {
-        "when": "Brown Turtle",
+        "when": [
+          "Brown Turtle",
+          "brown turtle",
+          "ipattern:Brown Turtle",
+          "iregex:.*Brown Turtle.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/turtle/brown/pumpkin"
         }
       },
       {
-        "when": "Leatherback Turtle",
+        "when": [
+          "Leatherback Turtle",
+          "leatherback turtle",
+          "ipattern:Leatherback Turtle",
+          "iregex:.*Leatherback Turtle.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/turtle/leatherback/pumpkin"
         }
       },
       {
-        "when": "Rough Brown Turtle",
+        "when": [
+          "Rough Brown Turtle",
+          "rough brown turtle",
+          "ipattern:Rough Brown Turtle",
+          "iregex:.*Rough Brown Turtle.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/turtle/rough_brown/pumpkin"
         }
       },
       {
-        "when": "Turtle",
+        "when": [
+          "Turtle",
+          "turtle",
+          "ipattern:Turtle",
+          "iregex:.*Turtle.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/animals/turtle/vanilla/pumpkin"
         }
       },
       {
-        "when": "Black Beanie",
+        "when": [
+          "Black Beanie",
+          "black beanie",
+          "ipattern:black beanie",
+          "iregex:.*Black Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/black/pumpkin"
         }
       },
       {
-        "when": "Blue Beanie",
+        "when": [
+          "Blue Beanie",
+          "blue beanie",
+          "ipattern:blue beanie",
+          "iregex:.*Blue Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/blue/pumpkin"
         }
       },
       {
-        "when": "Brown Beanie",
+        "when": [
+          "Brown Beanie",
+          "brown beanie",
+          "ipattern:brown beanie",
+          "iregex:.*Brown Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/brown/pumpkin"
         }
       },
       {
-        "when": "Cyan Beanie",
+        "when": [
+          "Cyan Beanie",
+          "cyan beanie",
+          "ipattern:cyan beanie",
+          "iregex:.*Cyan Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/cyan/pumpkin"
         }
       },
       {
-        "when": "Gray Beanie",
+        "when": [
+          "Gray Beanie",
+          "gray beanie",
+          "ipattern:gray beanie",
+          "iregex:.*Gray Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/gray/pumpkin"
         }
       },
       {
-        "when": "Green Beanie",
+        "when": [
+          "Green Beanie",
+          "green beanie",
+          "ipattern:green beanie",
+          "iregex:.*Green Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/green/pumpkin"
         }
       },
       {
-        "when": "Light Blue Beanie",
+        "when": [
+          "Light Blue Beanie",
+          "light blue beanie",
+          "ipattern:light blue beanie",
+          "iregex:.*Light Blue Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/light_blue/pumpkin"
         }
       },
       {
-        "when": "Light Gray Beanie",
+        "when": [
+          "Light Gray Beanie",
+          "light gray beanie",
+          "ipattern:light gray beanie",
+          "iregex:.*Light Gray Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/light_gray/pumpkin"
         }
       },
       {
-        "when": "Lime Beanie",
+        "when": [
+          "Lime Beanie",
+          "lime beanie",
+          "ipattern:lime beanie",
+          "iregex:.*Lime Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/lime/pumpkin"
         }
       },
       {
-        "when": "Magenta Beanie",
+        "when": [
+          "Magenta Beanie",
+          "magenta beanie",
+          "ipattern:magenta beanie",
+          "iregex:.*Magenta Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/magenta/pumpkin"
         }
       },
       {
-        "when": "Orange Beanie",
+        "when": [
+          "Orange Beanie",
+          "orange beanie",
+          "ipattern:orange beanie",
+          "iregex:.*Orange Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/orange/pumpkin"
         }
       },
       {
-        "when": "Pink Beanie",
+        "when": [
+          "Pink Beanie",
+          "pink beanie",
+          "ipattern:pink beanie",
+          "iregex:.*Pink Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pink/pumpkin"
         }
       },
       {
-        "when": "Agender Beanie",
+        "when": [
+          "Agender Beanie",
+          "agender beanie",
+          "ipattern:agender beanie",
+          "iregex:.*Agender Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/agender/pumpkin"
         }
       },
       {
-        "when": "Androgynous Beanie",
+        "when": [
+          "Androgynous Beanie",
+          "androgynous beanie",
+          "ipattern:androgynous beanie",
+          "iregex:.*Androgynous Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/androgynous/pumpkin"
         }
       },
       {
-        "when": "Aromantic Beanie",
+        "when": [
+          "Aromantic Beanie",
+          "aromantic beanie",
+          "ipattern:aromantic beanie",
+          "iregex:.*Aromantic Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/aromantic/pumpkin"
         }
       },
       {
-        "when": "Asexual Beanie",
+        "when": [
+          "Asexual Beanie",
+          "asexual beanie",
+          "ipattern:asexual beanie",
+          "iregex:.*Asexual Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/asexual/pumpkin"
         }
       },
       {
-        "when": "Bisexual Beanie",
+        "when": [
+          "Bisexual Beanie",
+          "bisexual beanie",
+          "ipattern:bisexual beanie",
+          "iregex:.*Bisexual Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/bisexual/pumpkin"
         }
       },
       {
-        "when": "Demiboy Beanie",
+        "when": [
+          "Demiboy Beanie",
+          "demiboy beanie",
+          "ipattern:demiboy beanie",
+          "iregex:.*Demiboy Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/demiboy/pumpkin"
         }
       },
       {
-        "when": "Demigirl Beanie",
+        "when": [
+          "Demigirl Beanie",
+          "demigirl beanie",
+          "ipattern:demigirl beanie",
+          "iregex:.*Demigirl Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/demigirl/pumpkin"
         }
       },
       {
-        "when": "Deminonbinary Beanie",
+        "when": [
+          "Deminonbinary Beanie",
+          "deminonbinary beanie",
+          "ipattern:deminonbinary beanie",
+          "iregex:.*Deminonbinary Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/deminonbinary/pumpkin"
         }
       },
       {
-        "when": "Genderfluid Beanie",
+        "when": [
+          "Genderfluid Beanie",
+          "genderfluid beanie",
+          "ipattern:genderfluid beanie",
+          "iregex:.*Genderfluid Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/genderfluid/pumpkin"
         }
       },
       {
-        "when": "Genderqueer Beanie",
+        "when": [
+          "Genderqueer Beanie",
+          "genderqueer beanie",
+          "ipattern:genderqueer beanie",
+          "iregex:.*Genderqueer Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/genderqueer/pumpkin"
         }
       },
       {
-        "when": "Lesbian Beanie",
+        "when": [
+          "Lesbian Beanie",
+          "lesbian beanie",
+          "ipattern:lesbian beanie",
+          "iregex:.*Lesbian Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/lesbian/pumpkin"
         }
       },
       {
-        "when": "Neutrois Beanie",
+        "when": [
+          "Neutrois Beanie",
+          "neutrois beanie",
+          "ipattern:neutrois beanie",
+          "iregex:.*Neutrois Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/neutrois/pumpkin"
         }
       },
       {
-        "when": "Nonbinary Beanie",
+        "when": [
+          "Nonbinary Beanie",
+          "nonbinary beanie",
+          "ipattern:nonbinary beanie",
+          "iregex:.*Nonbinary Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/nonbinary/pumpkin"
         }
       },
       {
-        "when": "Pansexual Beanie",
+        "when": [
+          "Pansexual Beanie",
+          "pansexual beanie",
+          "ipattern:pansexual beanie",
+          "iregex:.*Pansexual Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/pansexual/pumpkin"
         }
       },
       {
-        "when": "Polysexual Beanie",
+        "when": [
+          "Polysexual Beanie",
+          "polysexual beanie",
+          "ipattern:polysexual beanie",
+          "iregex:.*Polysexual Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/polysexual/pumpkin"
         }
       },
       {
-        "when": "Transgender Beanie",
+        "when": [
+          "Transgender Beanie",
+          "transgender beanie",
+          "ipattern:transgender beanie",
+          "iregex:.*Transgender Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/transgender/pumpkin"
         }
       },
       {
-        "when": "Beanie",
+        "when": [
+          "Beanie",
+          "beanie",
+          "ipattern:beanie",
+          "iregex:.*Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/pride_beanies/two_spirit/pumpkin"
         }
       },
       {
-        "when": "Purple Beanie",
+        "when": [
+          "Purple Beanie",
+          "purple beanie",
+          "ipattern:purple beanie",
+          "iregex:.*Purple Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/purple/pumpkin"
         }
       },
       {
-        "when": "Red Beanie",
+        "when": [
+          "Red Beanie",
+          "red beanie",
+          "ipattern:red beanie",
+          "iregex:.*Red Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/red/pumpkin"
         }
       },
       {
-        "when": "TNT Beanie",
+        "when": [
+          "TNT Beanie",
+          "tnt beanie",
+          "ipattern:tnt beanie",
+          "iregex:.*TNT Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/tnt/pumpkin"
         }
       },
       {
-        "when": "White Beanie",
+        "when": [
+          "White Beanie",
+          "white beanie",
+          "ipattern:white beanie",
+          "iregex:.*White Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/white/pumpkin"
         }
       },
       {
-        "when": "Yellow Beanie",
+        "when": [
+          "Yellow Beanie",
+          "yellow beanie",
+          "ipattern:yellow beanie",
+          "iregex:.*Yellow Beanie.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/beanies/yellow/pumpkin"
         }
       },
       {
-        "when": "Black Bow",
+        "when": [
+          "Black Bow",
+          "black bow",
+          "ipattern:Black Bow",
+          "iregex:.*Black Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/black"
         }
       },
       {
-        "when": "Blue Bow",
+        "when": [
+          "Blue Bow",
+          "blue bow",
+          "ipattern:Blue Bow",
+          "iregex:.*Blue Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/blue"
         }
       },
       {
-        "when": "Brown Bow",
+        "when": [
+          "Brown Bow",
+          "brown bow",
+          "ipattern:Brown Bow",
+          "iregex:.*Brown Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/brown"
         }
       },
       {
-        "when": "Cyan Bow",
+        "when": [
+          "Cyan Bow",
+          "cyan bow",
+          "ipattern:Cyan Bow",
+          "iregex:.*Cyan Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/cyan"
         }
       },
       {
-        "when": "Gray Bow",
+        "when": [
+          "Gray Bow",
+          "gray bow",
+          "ipattern:Gray Bow",
+          "iregex:.*Gray Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/gray"
         }
       },
       {
-        "when": "Green Bow",
+        "when": [
+          "Green Bow",
+          "green bow",
+          "ipattern:Green Bow",
+          "iregex:.*Green Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/green"
         }
       },
       {
-        "when": "Light Blue Bow",
+        "when": [
+          "Light Blue Bow",
+          "light blue bow",
+          "ipattern:Light Blue Bow",
+          "iregex:.*Light Blue Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/light_blue"
         }
       },
       {
-        "when": "Light Gray Bow",
+        "when": [
+          "Light Gray Bow",
+          "light gray bow",
+          "ipattern:Light Gray Bow",
+          "iregex:.*Light Gray Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/light_gray"
         }
       },
       {
-        "when": "Lime Bow",
+        "when": [
+          "Lime Bow",
+          "lime bow",
+          "ipattern:Lime Bow",
+          "iregex:.*Lime Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/lime"
         }
       },
       {
-        "when": "Magenta Bow",
+        "when": [
+          "Magenta Bow",
+          "magenta bow",
+          "ipattern:Magenta Bow",
+          "iregex:.*Magenta Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/magenta"
         }
       },
       {
-        "when": "Orange Bow",
+        "when": [
+          "Orange Bow",
+          "orange bow",
+          "ipattern:Orange Bow",
+          "iregex:.*Orange Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/orange"
         }
       },
       {
-        "when": "Pink Bow",
+        "when": [
+          "Pink Bow",
+          "pink bow",
+          "ipattern:Pink Bow",
+          "iregex:.*Pink Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/pink"
         }
       },
       {
-        "when": "Purple Bow",
+        "when": [
+          "Purple Bow",
+          "purple bow",
+          "ipattern:Purple Bow",
+          "iregex:.*Purple Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/purple"
         }
       },
       {
-        "when": "Red Bow",
+        "when": [
+          "Red Bow",
+          "red bow",
+          "ipattern:Red Bow",
+          "iregex:.*Red Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/red"
         }
       },
       {
-        "when": "White Bow",
+        "when": [
+          "White Bow",
+          "white bow",
+          "ipattern:white Bow",
+          "iregex:.*White Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/white"
         }
       },
       {
-        "when": "Yellow Bow",
+        "when": [
+          "Yellow Bow",
+          "yellow bow",
+          "ipattern:Yellow Bow",
+          "iregex:.*Yellow Bow.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/bows/yellow"
         }
       },
       {
-        "when": "Cat Ears",
+        "when": [
+          "Cat Ears",
+          "cat ears",
+          "ipattern:Cat Ears",
+          "iregex:.*Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/black/pumpkin"
         }
       },
       {
-        "when": "Blue Cat Ears",
+        "when": [
+          "Blue Cat Ears",
+          "blue cat ears",
+          "ipattern:Blue Cat Ears",
+          "iregex:.*Blue Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/blue/pumpkin"
         }
       },
       {
-        "when": "Brown Cat Ears",
+        "when": [
+          "Brown Cat Ears",
+          "brown cat ears",
+          "ipattern:Brown Cat Ears",
+          "iregex:.*Brown Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/brown/pumpkin"
         }
       },
       {
-        "when": "Cyan Cat Ears",
+        "when": [
+          "Cyan Cat Ears",
+          "cyan cat ears",
+          "ipattern:Cyan Cat Ears",
+          "iregex:.*Cyan Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/cyan/pumpkin"
         }
       },
       {
-        "when": "Gray Cat Ears",
+        "when": [
+          "Gray Cat Ears",
+          "gray cat ears",
+          "ipattern:Gray Cat Ears",
+          "iregex:.*Gray Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/gray/pumpkin"
         }
       },
       {
-        "when": "Green Cat Ears",
+        "when": [
+          "Green Cat Ears",
+          "green cat ears",
+          "ipattern:Green Cat Ears",
+          "iregex:.*Green Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/green/pumpkin"
         }
       },
       {
-        "when": "Light Blue Cat Ears",
+        "when": [
+          "Light Blue Cat Ears",
+          "light blue cat ears",
+          "ipattern:Light Blue Cat Ears",
+          "iregex:.*Light Blue Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/light_blue/pumpkin"
         }
       },
       {
-        "when": "Light Gray Cat Ears",
+        "when": [
+          "Light Gray Cat Ears",
+          "light gray cat ears",
+          "ipattern:Light Gray Cat Ears",
+          "iregex:.*Light Gray Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/light_gray/pumpkin"
         }
       },
       {
-        "when": "Lime Cat Ears",
+        "when": [
+          "Lime Cat Ears",
+          "lime cat ears",
+          "ipattern:Lime Cat Ears",
+          "iregex:.*Lime Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/lime/pumpkin"
         }
       },
       {
-        "when": "Magenta Cat Ears",
+        "when": [
+          "Magenta Cat Ears",
+          "magenta cat ears",
+          "ipattern:Magenta Cat Ears",
+          "iregex:.*Magenta Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/magenta/pumpkin"
         }
       },
       {
-        "when": "Orange Cat Ears",
+        "when": [
+          "Orange Cat Ears",
+          "orange cat ears",
+          "ipattern:Orange Cat Ears",
+          "iregex:.*Orange Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/orange/pumpkin"
         }
       },
       {
-        "when": "Pink Cat Ears",
+        "when": [
+          "Pink Cat Ears",
+          "pink cat ears",
+          "ipattern:Pink Cat Ears",
+          "iregex:.*Pink Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/pink/pumpkin"
         }
       },
       {
-        "when": "Purple Cat Ears",
+        "when": [
+          "Purple Cat Ears",
+          "purple cat ears",
+          "ipattern:Purple Cat Ears",
+          "iregex:.*Purple Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/purple/pumpkin"
         }
       },
       {
-        "when": "Red Cat Ears",
+        "when": [
+          "Red Cat Ears",
+          "red cat ears",
+          "ipattern:Red Cat Ears",
+          "iregex:.*Red Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/red/pumpkin"
         }
       },
       {
-        "when": "White Cat Ears",
+        "when": [
+          "White Cat Ears",
+          "white cat ears",
+          "ipattern:White Cat Ears",
+          "iregex:.*White Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/white/pumpkin"
         }
       },
       {
-        "when": "Yellow Cat Ears",
+        "when": [
+          "Yellow Cat Ears",
+          "yellow cat ears",
+          "ipattern:Yellow Cat Ears",
+          "iregex:.*Yellow Cat Ears.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/cat_ears/yellow/pumpkin"
         }
       },
       {
-        "when": "Black Bishop",
+        "when": [
+          "Black Bishop",
+          "black bishop",
+          "ipattern:Black Bishop",
+          "iregex:.*Black Bishop.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/b/bishop/pumpkin"
         }
       },
       {
-        "when": "Black King",
+        "when": [
+          "Black King",
+          "black king",
+          "ipattern:Black King",
+          "iregex:.*Black King.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/b/king/pumpkin"
         }
       },
       {
-        "when": "Black Knight",
+        "when": [
+          "Black Knight",
+          "black knight",
+          "ipattern:Black Knight",
+          "iregex:.*Black Knight.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/b/knight/pumpkin"
         }
       },
       {
-        "when": "Black Pawn",
+        "when": [
+          "Black Pawn",
+          "black pawn",
+          "ipattern:Black Pawn",
+          "iregex:.*Black Pawn.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/b/pawn/pumpkin"
         }
       },
       {
-        "when": "Black Queen",
+        "when": [
+          "Black Queen",
+          "black queen",
+          "ipattern:Black Queen",
+          "iregex:.*Black Queen.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/b/queen/pumpkin"
         }
       },
       {
-        "when": "Black Rook",
+        "when": [
+          "Black Rook",
+          "black rook",
+          "ipattern:Black Rook",
+          "iregex:.*Black Rook.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/b/rook/pumpkin"
         }
       },
       {
-        "when": "White Bishop",
+        "when": [
+          "White Bishop",
+          "white bishop",
+          "ipattern:White Bishop",
+          "iregex:.*White Bishop.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/w/bishop/pumpkin"
         }
       },
       {
-        "when": "White King",
+        "when": [
+          "White King",
+          "white king",
+          "ipattern:White King",
+          "iregex:.*White King.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/w/king/pumpkin"
         }
       },
       {
-        "when": "White Knight",
+        "when": [
+          "White Knight",
+          "white knight",
+          "ipattern:White Knight",
+          "iregex:.*White Knight.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/w/knight/pumpkin"
         }
       },
       {
-        "when": "White Pawn",
+        "when": [
+          "White Pawn",
+          "white pawn",
+          "ipattern:White Pawn",
+          "iregex:.*White Pawn.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/w/pawn/pumpkin"
         }
       },
       {
-        "when": "White Queen",
+        "when": [
+          "White Queen",
+          "white queen",
+          "ipattern:White Queen",
+          "iregex:.*White Queen.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/w/queen/pumpkin"
         }
       },
       {
-        "when": "White Rook",
+        "when": [
+          "White Rook",
+          "white rook",
+          "ipattern:White Rook",
+          "iregex:.*White Rook.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/chess/w/rook/pumpkin"
         }
       },
       {
-        "when": "Black Flower",
+        "when": [
+          "Black Flower",
+          "black flower",
+          "ipattern:black flower",
+          "iregex:.*Black Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/black/pumpkin"
         }
       },
       {
-        "when": "Blue Flower",
+        "when": [
+          "Blue Flower",
+          "blue flower",
+          "ipattern:blue flower",
+          "iregex:.*Blue Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/blue/pumpkin"
         }
       },
       {
-        "when": "Brown Flower",
+        "when": [
+          "Brown Flower",
+          "brown flower",
+          "ipattern:brown flower",
+          "iregex:.*Brown Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/brown/pumpkin"
         }
       },
       {
-        "when": "Cyan Flower",
+        "when": [
+          "Cyan Flower",
+          "cyan flower",
+          "ipattern:cyan flower",
+          "iregex:.*Cyan Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/cyan/pumpkin"
         }
       },
       {
-        "when": "Green Flower",
+        "when": [
+          "Green Flower",
+          "green flower",
+          "ipattern:green flower",
+          "iregex:.*Green Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/green/pumpkin"
         }
       },
       {
-        "when": "Gray Flower",
+        "when": [
+          "Gray Flower",
+          "gray flower",
+          "ipattern:gray flower",
+          "iregex:.*Gray Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/grey/pumpkin"
         }
       },
       {
-        "when": "Light Blue Flower",
+        "when": [
+          "Light Blue Flower",
+          "light blue flower",
+          "ipattern:light blue flower",
+          "iregex:.*Light Blue Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/light_blue/pumpkin"
         }
       },
       {
-        "when": "Light Gray Flower",
+        "when": [
+          "Light Gray Flower",
+          "light gray flower",
+          "ipattern:light gray flower",
+          "iregex:.*Light Gray Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/light_gray/pumpkin"
         }
       },
       {
-        "when": "Lime Flower",
+        "when": [
+          "Lime Flower",
+          "lime flower",
+          "ipattern:lime flower",
+          "iregex:.*Lime Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/lime/pumpkin"
         }
       },
       {
-        "when": "Magenta Flower",
+        "when": [
+          "Magenta Flower",
+          "magenta flower",
+          "ipattern:magenta flower",
+          "iregex:.*Magenta Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/magenta/pumpkin"
         }
       },
       {
-        "when": "Orange Flower",
+        "when": [
+          "Orange Flower",
+          "orange flower",
+          "ipattern:orange flower",
+          "iregex:.*Orange Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/orange/pumpkin"
         }
       },
       {
-        "when": "Pink Flower",
+        "when": [
+          "Pink Flower",
+          "pink flower",
+          "ipattern:pink flower",
+          "iregex:.*Pink Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/pink/pumpkin"
         }
       },
       {
-        "when": "Purple Flower",
+        "when": [
+          "Purple Flower",
+          "purple flower",
+          "ipattern:purple flower",
+          "iregex:.*Purple Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/purple/pumpkin"
         }
       },
       {
-        "when": "Red Flower",
+        "when": [
+          "Red Flower",
+          "red flower",
+          "ipattern:red flower",
+          "iregex:.*Red Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/red/pumpkin"
         }
       },
       {
-        "when": "The Flower",
+        "when": [
+          "The Flower",
+          "the flower",
+          "iregex:(The|The Black) Flower",
+          "iregex:.*The Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/the_flower/pumpkin"
         }
       },
       {
-        "when": "White Flower",
+        "when": [
+          "White Flower",
+          "white flower",
+          "ipattern:white flower",
+          "iregex:.*White Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/white/pumpkin"
         }
       },
       {
-        "when": "Yellow Flower",
+        "when": [
+          "Yellow Flower",
+          "yellow flower",
+          "ipattern:yellow flower",
+          "iregex:.*Yellow Flower.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flowers/yellow/pumpkin"
         }
       },
       {
-        "when": "Black Flower Crown",
+        "when": [
+          "Black Flower Crown",
+          "black flower crown",
+          "ipattern:Black flower crown",
+          "iregex:.*Black Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/black/pumpkin"
         }
       },
       {
-        "when": "Blue Flower Crown",
+        "when": [
+          "Blue Flower Crown",
+          "blue flower crown",
+          "ipattern:blue flower crown",
+          "iregex:.*Blue Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/blue/pumpkin"
         }
       },
       {
-        "when": "Brown Flower Crown",
+        "when": [
+          "Brown Flower Crown",
+          "brown flower crown",
+          "ipattern:brown flower crown",
+          "iregex:.*Brown Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/brown/pumpkin"
         }
       },
       {
-        "when": "Cyan Flower Crown",
+        "when": [
+          "Cyan Flower Crown",
+          "cyan flower crown",
+          "ipattern:cyan flower crown",
+          "iregex:.*Cyan Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/cyan/pumpkin"
         }
       },
       {
-        "when": "Green Flower Crown",
+        "when": [
+          "Green Flower Crown",
+          "green flower crown",
+          "ipattern:green flower crown",
+          "iregex:.*Green Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/green/pumpkin"
         }
       },
       {
-        "when": "Gray Flower Crown",
+        "when": [
+          "Gray Flower Crown",
+          "gray flower crown",
+          "ipattern:gray flower crown",
+          "iregex:.*Gray Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/grey/pumpkin"
         }
       },
       {
-        "when": "Light Blue Flower Crown",
+        "when": [
+          "Light Blue Flower Crown",
+          "light blue flower crown",
+          "ipattern:light blue flower crown",
+          "iregex:.*Light Blue Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/light_blue/pumpkin"
         }
       },
       {
-        "when": "Light Gray Flower Crown",
+        "when": [
+          "Light Gray Flower Crown",
+          "light gray flower crown",
+          "ipattern:light gray flower crown",
+          "iregex:.*Light Gray Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/light_gray/pumpkin"
         }
       },
       {
-        "when": "Lime Flower Crown",
+        "when": [
+          "Lime Flower Crown",
+          "lime flower crown",
+          "ipattern:lime flower crown",
+          "iregex:.*Lime Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/lime/pumpkin"
         }
       },
       {
-        "when": "Magenta Flower Crown",
+        "when": [
+          "Magenta Flower Crown",
+          "magenta flower crown",
+          "ipattern:magenta flower crown",
+          "iregex:.*Magenta Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/magenta/pumpkin"
         }
       },
       {
-        "when": "Orange Flower Crown",
+        "when": [
+          "Orange Flower Crown",
+          "orange flower crown",
+          "ipattern:orange flower crown",
+          "iregex:.*Orange Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/orange/pumpkin"
         }
       },
       {
-        "when": "Pink Flower Crown",
+        "when": [
+          "Pink Flower Crown",
+          "pink flower crown",
+          "ipattern:pink flower crown",
+          "iregex:.*Pink Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/pink/pumpkin"
         }
       },
       {
-        "when": "Purple Flower Crown",
+        "when": [
+          "Purple Flower Crown",
+          "purple flower crown",
+          "ipattern:purple flower crown",
+          "iregex:.*Purple Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/purple/pumpkin"
         }
       },
       {
-        "when": "Red Flower Crown",
+        "when": [
+          "Red Flower Crown",
+          "red flower crown",
+          "ipattern:Red flower crown",
+          "iregex:.*Red Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/red/pumpkin"
         }
       },
       {
-        "when": "White Flower Crown",
+        "when": [
+          "White Flower Crown",
+          "white flower crown",
+          "ipattern:white flower crown",
+          "iregex:.*White Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/white/pumpkin"
         }
       },
       {
-        "when": "Yellow Flower Crown",
+        "when": [
+          "Yellow Flower Crown",
+          "yellow flower crown",
+          "ipattern:yellow flower crown",
+          "iregex:.*Yellow Flower Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/flower_crowns/yellow/pumpkin"
         }
       },
       {
-        "when": "Black Headset",
+        "when": [
+          "Black Headset",
+          "black headset",
+          "ipattern:Black headset",
+          "iregex:.*Black Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/black/pumpkin"
         }
       },
       {
-        "when": "Black Blue Headset",
+        "when": [
+          "Black Blue Headset",
+          "black blue headset",
+          "ipattern:Black blue headset",
+          "iregex:.*Black Blue Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/blue/pumpkin"
         }
       },
       {
-        "when": "Black Brown Headset",
+        "when": [
+          "Black Brown Headset",
+          "black brown headset",
+          "ipattern:Black brown headset",
+          "iregex:.*Black Brown Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/brown/pumpkin"
         }
       },
       {
-        "when": "Black Cyan Headset",
+        "when": [
+          "Black Cyan Headset",
+          "black cyan headset",
+          "ipattern:Black cyan headset",
+          "iregex:.*Black Cyan Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/cyan/pumpkin"
         }
       },
       {
-        "when": "Black Green Headset",
+        "when": [
+          "Black Green Headset",
+          "black green headset",
+          "ipattern:Black green headset",
+          "iregex:.*Black Green Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/green/pumpkin"
         }
       },
       {
-        "when": "Black Gray Headset",
+        "when": [
+          "Black Gray Headset",
+          "black gray headset",
+          "ipattern:Black gray headset",
+          "iregex:.*Black Gray Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/grey/pumpkin"
         }
       },
       {
-        "when": "Black Light Blue Headset",
+        "when": [
+          "Black Light Blue Headset",
+          "black light blue headset",
+          "ipattern:Black light blue headset",
+          "iregex:.*Black Light Blue Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/light_blue/pumpkin"
         }
       },
       {
-        "when": "Black Light Gray Headset",
+        "when": [
+          "Black Light Gray Headset",
+          "black light gray headset",
+          "ipattern:Black light gray headset",
+          "iregex:.*Black Light Gray Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/light_grey/pumpkin"
         }
       },
       {
-        "when": "Black Lime Headset",
+        "when": [
+          "Black Lime Headset",
+          "black lime headset",
+          "ipattern:Black lime headset",
+          "iregex:.*Black Lime Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/lime/pumpkin"
         }
       },
       {
-        "when": "Black Magenta Headset",
+        "when": [
+          "Black Magenta Headset",
+          "black magenta headset",
+          "ipattern:Black magenta headset",
+          "iregex:.*Black Magenta Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/magenta/pumpkin"
         }
       },
       {
-        "when": "Black Orange Headset",
+        "when": [
+          "Black Orange Headset",
+          "black orange headset",
+          "ipattern:Black orange headset",
+          "iregex:.*Black Orange Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/orange/pumpkin"
         }
       },
       {
-        "when": "Black Pink Headset",
+        "when": [
+          "Black Pink Headset",
+          "black pink headset",
+          "ipattern:Black pink headset",
+          "iregex:.*Black Pink Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/pink/pumpkin"
         }
       },
       {
-        "when": "Black Purple Headset",
+        "when": [
+          "Black Purple Headset",
+          "black purple headset",
+          "ipattern:Black purple headset",
+          "iregex:.*Black Purple Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/purple/pumpkin"
         }
       },
       {
-        "when": "Black Red Headset",
+        "when": [
+          "Black Red Headset",
+          "black red headset",
+          "ipattern:Black red headset",
+          "iregex:.*Black Red Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/red/pumpkin"
         }
       },
       {
-        "when": "Black White Headset",
+        "when": [
+          "Black White Headset",
+          "black white headset",
+          "ipattern:Black white headset",
+          "iregex:.*Black White Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/white/pumpkin"
         }
       },
       {
-        "when": "Black Yellow Headset",
+        "when": [
+          "Black Yellow Headset",
+          "black yellow headset",
+          "ipattern:Black yellow headset",
+          "iregex:.*Black Yellow Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/black/yellow/pumpkin"
         }
       },
       {
-        "when": "dbrighthd Headset",
+        "when": [
+          "dbrighthd Headset",
+          "dbrighthd headset",
+          "ipattern:dbrighthd Headset",
+          "iregex:.*dbrighthd Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/dbright_headset/pumpkin"
         }
       },
       {
-        "when": "White Black Headset",
+        "when": [
+          "White Black Headset",
+          "white black headset",
+          "ipattern:white black headset",
+          "iregex:.*White Black Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/black/pumpkin"
         }
       },
       {
-        "when": "White Blue Headset",
+        "when": [
+          "White Blue Headset",
+          "white blue headset",
+          "ipattern:white blue headset",
+          "iregex:.*White Blue Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/blue/pumpkin"
         }
       },
       {
-        "when": "White Brown Headset",
+        "when": [
+          "White Brown Headset",
+          "white brown headset",
+          "ipattern:white brown headset",
+          "iregex:.*White Brown Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/brown/pumpkin"
         }
       },
       {
-        "when": "White Cyan Headset",
+        "when": [
+          "White Cyan Headset",
+          "white cyan headset",
+          "ipattern:white cyan headset",
+          "iregex:.*White Cyan Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/cyan/pumpkin"
         }
       },
       {
-        "when": "White Green Headset",
+        "when": [
+          "White Green Headset",
+          "white green headset",
+          "ipattern:white green headset",
+          "iregex:.*White Green Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/green/pumpkin"
         }
       },
       {
-        "when": "White Gray Headset",
+        "when": [
+          "White Gray Headset",
+          "white gray headset",
+          "ipattern:white gray headset",
+          "iregex:.*White Gray Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/grey/pumpkin"
         }
       },
       {
-        "when": "White Light Blue Headset",
+        "when": [
+          "White Light Blue Headset",
+          "white light blue headset",
+          "ipattern:white light blue headset",
+          "iregex:.*White Light Blue Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/light_blue/pumpkin"
         }
       },
       {
-        "when": "White Light Gray Headset",
+        "when": [
+          "White Light Gray Headset",
+          "white light gray headset",
+          "ipattern:white light gray headset",
+          "iregex:.*White Light Gray Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/light_grey/pumpkin"
         }
       },
       {
-        "when": "White Lime Headset",
+        "when": [
+          "White Lime Headset",
+          "white lime headset",
+          "ipattern:white lime headset",
+          "iregex:.*White Lime Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/lime/pumpkin"
         }
       },
       {
-        "when": "White Magenta Headset",
+        "when": [
+          "White Magenta Headset",
+          "white magenta headset",
+          "ipattern:white magenta headset",
+          "iregex:.*White Magenta Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/magenta/pumpkin"
         }
       },
       {
-        "when": "White Orange Headset",
+        "when": [
+          "White Orange Headset",
+          "white orange headset",
+          "ipattern:white orange headset",
+          "iregex:.*White Orange Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/orange/pumpkin"
         }
       },
       {
-        "when": "White Pink Headset",
+        "when": [
+          "White Pink Headset",
+          "white pink headset",
+          "ipattern:white pink headset",
+          "iregex:.*White Pink Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/pink/pumpkin"
         }
       },
       {
-        "when": "White Purple Headset",
+        "when": [
+          "White Purple Headset",
+          "white purple headset",
+          "ipattern:white purple headset",
+          "iregex:.*White Purple Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/purple/pumpkin"
         }
       },
       {
-        "when": "White Red Headset",
+        "when": [
+          "White Red Headset",
+          "white red headset",
+          "ipattern:white red headset",
+          "iregex:.*White Red Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/red/pumpkin"
         }
       },
       {
-        "when": "White Headset",
+        "when": [
+          "White Headset",
+          "white headset",
+          "ipattern:white headset",
+          "iregex:.*White Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/white/pumpkin"
         }
       },
       {
-        "when": "White Yellow Headset",
+        "when": [
+          "White Yellow Headset",
+          "white yellow headset",
+          "ipattern:white yellow headset",
+          "iregex:.*White Yellow Headset.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/headsets/white/yellow/pumpkin"
         }
       },
       {
-        "when": "Santa Hat",
+        "when": [
+          "Santa Hat",
+          "santa hat",
+          "ipattern:*santa hat*",
+          "iregex:.*Santa Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/holiday/santahat/pumpkin"
         }
       },
       {
-        "when": "Bucket Hat",
+        "when": [
+          "Bucket Hat",
+          "bucket hat",
+          "ipattern:Bucket Hat",
+          "iregex:.*Bucket Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/actually_a_bucket_hat/pumpkin"
         }
       },
       {
-        "when": "Balladeer Hat",
+        "when": [
+          "Balladeer Hat",
+          "balladeer hat",
+          "iregex:(Balladeer|Scaramouche) Hat",
+          "iregex:.*Balladeer Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/balladeer_hat/pumpkin"
         }
       },
       {
-        "when": "Brown Mushroom Hat",
+        "when": [
+          "Brown Mushroom Hat",
+          "brown mushroom hat",
+          "ipattern:Brown Mushroom Hat",
+          "iregex:.*Brown Mushroom Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/brown_mushroom_hat/pumpkin"
         }
       },
       {
-        "when": "Bucket",
+        "when": [
+          "Bucket",
+          "bucket",
+          "ipattern:Bucket",
+          "iregex:.*Bucket.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/bucket_hat/pumpkin"
         }
       },
       {
-        "when": "Bunny Hat",
+        "when": [
+          "Bunny Hat",
+          "bunny hat",
+          "ipattern:Bunny Hat",
+          "iregex:.*Bunny Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/bunny_hat/pumpkin"
         }
       },
       {
-        "when": "Antenas Del Chapulin Colorado",
+        "when": [
+          "Antenas Del Chapulin Colorado",
+          "antenas del chapulin colorado",
+          "ipattern:Antenas del chapulin colorado",
+          "iregex:.*Antenas Del Chapulin Colorado.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/chapulin_colorado/pumpkin"
         }
       },
       {
-        "when": "Clown Nose",
+        "when": [
+          "Clown Nose",
+          "clown nose",
+          "ipattern:Clown Nose",
+          "iregex:.*Clown Nose.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/clown_nose/pumpkin"
         }
       },
       {
-        "when": "Cowboy Hat",
+        "when": [
+          "Cowboy Hat",
+          "cowboy hat",
+          "ipattern:Cowboy Hat",
+          "iregex:.*Cowboy Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/cowboy_hat/pumpkin"
         }
       },
       {
-        "when": "Crescent King",
+        "when": [
+          "Crescent King",
+          "crescent king",
+          "ipattern:Crescent King",
+          "iregex:.*Crescent King.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/crescent_king/model"
         }
       },
       {
-        "when": "Crimson Fungus Hat",
+        "when": [
+          "Crimson Fungus Hat",
+          "crimson fungus hat",
+          "ipattern:Crimson Fungus Hat",
+          "iregex:.*Crimson Fungus Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/crimson_fungus_hat/pumpkin"
         }
       },
       {
-        "when": "Crown",
+        "when": [
+          "Crown",
+          "crown",
+          "ipattern:Crown",
+          "iregex:.*Crown.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/crown_hat/pumpkin"
         }
       },
       {
-        "when": "Deal With It",
+        "when": [
+          "Deal With It",
+          "deal with it",
+          "ipattern:Deal With It",
+          "iregex:.*Deal With It.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/deal_with_it/pumpkin"
         }
       },
       {
-        "when": "Devil Horns",
+        "when": [
+          "Devil Horns",
+          "devil horns",
+          "ipattern:Devil Horns",
+          "iregex:.*Devil Horns.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/devil/pumpkin"
         }
       },
       {
-        "when": "Low Eyepatch",
+        "when": [
+          "Low Eyepatch",
+          "low eyepatch",
+          "ipattern:Low Eyepatch",
+          "iregex:.*Low Eyepatch.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/eyepatch/low/pumpkin"
         }
       },
       {
-        "when": "Lowest Eyepatch",
+        "when": [
+          "Lowest Eyepatch",
+          "lowest eyepatch",
+          "ipattern:Lowest Eyepatch",
+          "iregex:.*Lowest Eyepatch.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/eyepatch/lowest/pumpkin"
         }
       },
       {
-        "when": "Eyepatch",
+        "when": [
+          "Eyepatch",
+          "eyepatch",
+          "ipattern:eyepatch",
+          "iregex:.*Eyepatch.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/eyepatch/normal/pumpkin"
         }
       },
       {
-        "when": "Ultrakill Gabriel Halo",
+        "when": [
+          "Ultrakill Gabriel Halo",
+          "ultrakill gabriel halo",
+          "ipattern:Ultrakill Gabriel Halo",
+          "iregex:.*Ultrakill Gabriel Halo.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/gabriel_halo/pumpkin"
         }
       },
       {
-        "when": "Graduation Cap",
+        "when": [
+          "Graduation Cap",
+          "graduation cap",
+          "ipattern:Graduation Cap",
+          "iregex:.*Graduation Cap.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/graduation_hat/pumpkin"
         }
       },
       {
-        "when": "Halo",
+        "when": [
+          "Halo",
+          "halo",
+          "ipattern:Halo",
+          "iregex:.*Halo.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/halo/pumpkin"
         }
       },
       {
-        "when": "Heart Eyes",
+        "when": [
+          "Heart Eyes",
+          "heart eyes",
+          "ipattern:Heart Eyes",
+          "iregex:.*Heart Eyes.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/heart_eyes/pumpkin"
         }
       },
       {
-        "when": "Jackolantern",
+        "when": [
+          "Jackolantern",
+          "jackolantern",
+          "ipattern:*Jack*o*lantern*",
+          "iregex:.*Jackolantern.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/jackolantern/pumpkin"
         }
       },
       {
-        "when": "Jevil Hat",
+        "when": [
+          "Jevil Hat",
+          "jevil hat",
+          "ipattern:Jevil Hat",
+          "iregex:.*Jevil Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/jevil_hat/pumpkin"
         }
       },
       {
-        "when": "Monocle",
+        "when": [
+          "Halo",
+          "halo",
+          "ipattern:Halo",
+          "iregex:.*Halo.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/misc/misty_goggles/pumpkin"
+        }
+      },
+      {
+        "when": [
+          "Monocle",
+          "monocle",
+          "ipattern:Monocle",
+          "iregex:.*Monocle.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/monocle/pumpkin"
         }
       },
       {
-        "when": "Napoleon Hat",
+        "when": [
+          "Napoleon Hat",
+          "napoleon hat",
+          "ipattern:napoleon hat",
+          "iregex:.*Napoleon Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/napoleon_hat/pumpkin"
         }
       },
       {
-        "when": "Pirate Hat",
+        "when": [
+          "Pirate Hat",
+          "pirate hat",
+          "ipattern:pirate hat",
+          "iregex:.*Pirate Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/pirate_hats/pirate_hat/pumpkin"
         }
       },
       {
-        "when": "Skull Pirate Hat",
+        "when": [
+          "Skull Pirate Hat",
+          "skull pirate hat",
+          "ipattern:skull pirate hat",
+          "iregex:.*Skull Pirate Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/pirate_hats/skull_hat/pumpkin"
         }
       },
       {
-        "when": "Yellow Plumbob",
+        "when": [
+          "Yellow Plumbob",
+          "yellow plumbob",
+          "ipattern:*yellow plumbob*",
+          "iregex:.*Yellow Plumbob.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/plumbobs/1yellow/pumpkin"
         }
       },
       {
-        "when": "Orange Plumbob",
+        "when": [
+          "Orange Plumbob",
+          "orange plumbob",
+          "ipattern:*orange plumbob*",
+          "iregex:.*Orange Plumbob.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/plumbobs/2orange/pumpkin"
         }
       },
       {
-        "when": "Red Plumbob",
+        "when": [
+          "Red Plumbob",
+          "red plumbob",
+          "ipattern:*red plumbob*",
+          "iregex:.*Red Plumbob.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/plumbobs/3red/pumpkin"
         }
       },
       {
-        "when": "Plumbob",
+        "when": [
+          "Plumbob",
+          "plumbob",
+          "ipattern:*plumbob*",
+          "iregex:.*Plumbob.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/plumbobs/4green/pumpkin"
         }
       },
       {
-        "when": "Mushroom Hat",
+        "when": [
+          "Mushroom Hat",
+          "mushroom hat",
+          "ipattern:Mushroom Hat",
+          "iregex:.*Mushroom Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/red_mushroom_hat/pumpkin"
         }
       },
       {
-        "when": "Spartan Helmet",
+        "when": [
+          "Spartan Helmet",
+          "spartan helmet",
+          "ipattern:Spartan Helmet",
+          "iregex:.*Spartan Helmet.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/spartan_helmet/pumpkin"
         }
       },
       {
-        "when": "Star Eyes",
+        "when": [
+          "Star Eyes",
+          "star eyes",
+          "ipattern:Star Eyes",
+          "iregex:.*Star Eyes.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/star_eyes/pumpkin"
         }
       },
       {
-        "when": "Swinub",
+        "when": [
+          "Swinub",
+          "swinub",
+          "ipattern:swinub",
+          "iregex:.*Swinub.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/swinub/pumpkin"
         }
       },
       {
-        "when": "Unicorn Horn",
+        "when": [
+          "Unicorn Horn",
+          "unicorn horn",
+          "ipattern:Unicorn Horn",
+          "iregex:.*Unicorn Horn.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/unicorn_horn/pumpkin"
         }
       },
       {
-        "when": "Wanderer Hat",
+        "when": [
+          "Wanderer Hat",
+          "wanderer hat",
+          "ipattern:Wanderer Hat",
+          "iregex:.*Wanderer Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/wanderer_hat/pumpkin"
         }
       },
       {
-        "when": "Warped Fungus Hat",
+        "when": [
+          "Warped Fungus Hat",
+          "warped fungus hat",
+          "ipattern:Warped Fungus Hat",
+          "iregex:.*Warped Fungus Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/warped_fungus_hat/pumpkin"
         }
       },
       {
-        "when": "Witch Hat",
+        "when": [
+          "Witch Hat",
+          "witch hat",
+          "ipattern:Witch Hat",
+          "iregex:.*Witch Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/witch_hat/pumpkin"
         }
       },
       {
-        "when": "Melody Witch Hat",
+        "when": [
+          "Melody Witch Hat",
+          "melody witch hat",
+          "ipattern:Melody Witch Hat",
+          "iregex:.*Melody Witch Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/witch_hat/bongo_witch_hat/pumpkin"
         }
       },
       {
-        "when": "Wizard Hat",
+        "when": [
+          "Wizard Hat",
+          "wizard hat",
+          "ipattern:Wizard Hat",
+          "iregex:.*Wizard Hat.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/wizard_hat/pumpkin"
         }
       },
       {
-        "when": "Tree Disguise",
+        "when": [
+          "Tree Disguise",
+          "tree disguise",
+          "ipattern:Tree Disguise",
+          "iregex:.*Tree Disguise.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/misc/you_saw_nothing/pumpkin"
         }
       },
       {
-        "when": ["Phase 1 Clone Trooper Helmet", "P1 Clone Trooper Helmet"],
+        "when": [
+          "Axolotl Beanie",
+          "axolotl beanie",
+          "ipattern:Axolotl Beanie",
+          "iregex:.*Axolotl Beanie.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/purple/pumpkin"
+        }
+      },
+      {
+        "when": [
+          "Phase 1 Clone Trooper Helmet",
+          "phase 1 clone trooper helmet",
+          "iregex:(.*Phase 1 Clone Trooper Helmet.*|.*P1 Clone trooper helmet.*)",
+          "iregex:.*Phase 1 Clone Trooper Helmet.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/sw/p1clonetrooper/pumpkin"
         }
       },
       {
-        "when": ["Phase 2 Clone Trooper Helmet", "P2 Clone Trooper Helmet"],
+        "when": [
+          "Phase 2 Clone Trooper Helmet",
+          "phase 2 clone trooper helmet",
+          "iregex:(.*Phase 2 Clone Trooper Helmet.*|.*P2 Clone trooper helmet.*)",
+          "iregex:.*Phase 2 Clone Trooper Helmet.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/sw/p2clonetrooper/pumpkin"
         }
       },
       {
-        "when": ["Storm Trooper Helmet", "Stormtrooper Helmet"],
+        "when": [
+          "Storm Trooper Helmet",
+          "storm trooper helmet",
+          "iregex:(.*Storm Trooper Helmet.*|.*Stormtrooper helmet.*)",
+          "iregex:.*Storm Trooper Helmet.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/sw/stormtrooper/pumpkin"
