@@ -2749,6 +2749,652 @@
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/sw/stormtrooper/pumpkin"
         }
+      },
+      {
+        "when": [
+          "10K Downloads",
+          "10k downloads",
+          "iregex:.*10K Downloads.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/10k_downloads"
+        }
+      },
+      {
+        "when": [
+          "Allay",
+          "allay",
+          "iregex:.*Allay.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/allay"
+        }
+      },
+      {
+        "when": [
+          "Arrow",
+          "arrow",
+          "iregex:.*Arrow.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/arrow"
+        }
+      },
+      {
+        "when": [
+          "Axolotl Head",
+          "axolotl head",
+          "iregex:.*Axolotl Head.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/axolotl_head"
+        }
+      },
+      {
+        "when": [
+          "Bucket Head",
+          "bucket head",
+          "iregex:.*Bucket Head.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/bucket"
+        }
+      },
+      {
+        "when": [
+          "Celestial Witch Hat",
+          "celestial witch hat",
+          "ipattern:*Celestial Witch Hat*",
+          "iregex:.*Celestial Witch Hat.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/celestial_witch_hat"
+        }
+      },
+      {
+        "when": [
+          "Cool Glasses",
+          "cool glasses",
+          "iregex:.*Cool Glasses.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/cool_glasses"
+        }
+      },
+      {
+        "when": [
+          "Copper Golem",
+          "copper golem",
+          "iregex:.*Copper Golem.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/copper_golem"
+        }
+      },
+      {
+        "when": [
+          "Hats Crown",
+          "hats crown",
+          "iregex:.*Hats Crown.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/crown"
+        }
+      },
+      {
+        "when": [
+          "Dc Banner",
+          "dc banner",
+          "iregex:.*Dc Banner.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/dc_banner"
+        }
+      },
+      {
+        "when": [
+          "Floating Crown",
+          "floating crown",
+          "ipattern:*Floating Crown*",
+          "iregex:.*Floating Crown.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/floating_crown"
+        }
+      },
+      {
+        "when": [
+          "Flower",
+          "flower",
+          "iregex:.*Flower.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/flower"
+        }
+      },
+      {
+        "when": [
+          "Flower Crown",
+          "flower crown",
+          "iregex:.*Flower Crown.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/flower_crown"
+        }
+      },
+      {
+        "when": [
+          "Fox",
+          "fox",
+          "iregex:.*Fox.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/fox"
+        }
+      },
+      {
+        "when": [
+          "Glow Squid",
+          "glow squid",
+          "iregex:.*Glow Squid.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/glow_squid"
+        }
+      },
+      {
+        "when": [
+          "Hats Halo",
+          "hats halo",
+          "iregex:.*Hats Halo.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/halo"
+        }
+      },
+      {
+        "when": [
+          "Hats Plus Pumpkins",
+          "hats plus pumpkins",
+          "iregex:.*Hats Plus Pumpkins.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/hats_plus_pumpkins"
+        }
+      },
+      {
+        "when": [
+          "Hd Eyes",
+          "hd eyes",
+          "iregex:.*Hd Eyes.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/hd_eyes"
+        }
+      },
+      {
+        "when": [
+          "Headphones1",
+          "headphones1",
+          "iregex:.*Headphones1.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/headphones1"
+        }
+      },
+      {
+        "when": [
+          "Headphones2",
+          "headphones2",
+          "iregex:.*Headphones2.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/headphones2"
+        }
+      },
+      {
+        "when": [
+          "Headphones3",
+          "headphones3",
+          "iregex:.*Headphones3.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/headphones3"
+        }
+      },
+      {
+        "when": [
+          "Hedgehog",
+          "hedgehog",
+          "iregex:.*Hedgehog.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/hedgehog"
+        }
+      },
+      {
+        "when": [
+          "King Trisekiel",
+          "king trisekiel",
+          "iregex:.*King Trisekiel.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/king_trisekiel"
+        }
+      },
+      {
+        "when": [
+          "Lightbulb",
+          "lightbulb",
+          "iregex:.*Lightbulb.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/lightbulb"
+        }
+      },
+      {
+        "when": [
+          "Little Creeper",
+          "little creeper",
+          "iregex:.*Little Creeper.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/little_creeper"
+        }
+      },
+      {
+        "when": [
+          "Little Enderman",
+          "little enderman",
+          "iregex:.*Little Enderman.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/little_enderman"
+        }
+      },
+      {
+        "when": [
+          "Little Man1",
+          "little man1",
+          "iregex:.*Little Man1.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/little_man"
+        }
+      },
+      {
+        "when": [
+          "Little Man2",
+          "little man2",
+          "iregex:.*Little Man2.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/little_man2"
+        }
+      },
+      {
+        "when": [
+          "Little Man3",
+          "little man3",
+          "iregex:.*Little Man3.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/little_man3"
+        }
+      },
+      {
+        "when": [
+          "Little Man4",
+          "little man4",
+          "iregex:.*Little Man4.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/little_man4"
+        }
+      },
+      {
+        "when": [
+          "Little Man5",
+          "little man5",
+          "iregex:.*Little Man5.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/little_man5"
+        }
+      },
+      {
+        "when": [
+          "Little Man6",
+          "little man6",
+          "iregex:.*Little Man6.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/little_man6"
+        }
+      },
+      {
+        "when": [
+          "Little Zombie",
+          "little zombie",
+          "iregex:.*Little Zombie.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/little_zombie"
+        }
+      },
+      {
+        "when": [
+          "Mario Block",
+          "mario block",
+          "iregex:.*Mario Block.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/mario_block"
+        }
+      },
+      {
+        "when": [
+          "Mc Banner",
+          "mc banner",
+          "iregex:.*Mc Banner.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/mc_banner"
+        }
+      },
+      {
+        "when": [
+          "Minecart",
+          "minecart",
+          "iregex:.*Minecart.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/minecart"
+        }
+      },
+      {
+        "when": [
+          "Moon",
+          "moon",
+          "iregex:.*Moon.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/moon"
+        }
+      },
+      {
+        "when": [
+          "Moon Orbit",
+          "moon orbit",
+          "iregex:.*Moon Orbit.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/moon_orbit"
+        }
+      },
+      {
+        "when": [
+          "Mushroom Man",
+          "mushroom man",
+          "iregex:.*Mushroom Man.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/mushroom"
+        }
+      },
+      {
+        "when": [
+          "Mustache1",
+          "mustache1",
+          "iregex:.*Mustache1.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/mustache1"
+        }
+      },
+      {
+        "when": [
+          "Mustache2",
+          "mustache2",
+          "iregex:.*Mustache2.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/mustache2"
+        }
+      },
+      {
+        "when": [
+          "Mustache3",
+          "mustache3",
+          "iregex:.*Mustache3.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/mustache3"
+        }
+      },
+      {
+        "when": [
+          "Mustache4",
+          "mustache4",
+          "iregex:.*Mustache4.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/mustache4"
+        }
+      },
+      {
+        "when": [
+          "Mustache5",
+          "mustache5",
+          "iregex:.*Mustache5.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/mustache5"
+        }
+      },
+      {
+        "when": [
+          "OF Banner",
+          "of banner",
+          "iregex:.*Of Banner.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/of_banner"
+        }
+      },
+      {
+        "when": [
+          "On Fire",
+          "on fire",
+          "iregex:.*On Fire.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/on_fire"
+        }
+      },
+      {
+        "when": [
+          "Pickaxe",
+          "pickaxe",
+          "iregex:.*Pickaxe.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/pickaxe"
+        }
+      },
+      {
+        "when": [
+          "Spoilers",
+          "spoilers",
+          "iregex:.*Spoilers.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/spoilers"
+        }
+      },
+      {
+        "when": [
+          "Spy Glass Hat",
+          "spy glass hat",
+          "iregex:.*Spy Glass Hat.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/spyglasshat"
+        }
+      },
+      {
+        "when": [
+          "Subnatica Banner",
+          "subnatica banner",
+          "Subnautica Banner",
+          "subnautica banner",
+          "iregex:.*Subnatica Banner.*",
+          "iregex:.*Subnautica Banner.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/subnatica_banner"
+        }
+      },
+      {
+        "when": [
+          "Sun",
+          "sun",
+          "iregex:.*Sun.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/sun"
+        }
+      },
+      {
+        "when": [
+          "Sus",
+          "sus",
+          "iregex:.*Sus.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/sus"
+        }
+      },
+      {
+        "when": [
+          "Traffic Cone",
+          "traffic cone",
+          "ipattern:*Traffic Cone*",
+          "iregex:.*Traffic Cone.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/traffic_cone"
+        }
+      },
+      {
+        "when": [
+          "Tw Banner",
+          "tw banner",
+          "TW banner",
+          "iregex:.*Tw Banner.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/tw_banner"
+        }
+      },
+      {
+        "when": [
+          "Villager Nose",
+          "villager nose",
+          "villager Nose",
+          "iregex:.*Villager Nose.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/villager_nose"
+        }
+      },
+      {
+        "when": [
+          "Water Spill",
+          "water spill",
+          "iregex:.*Water Spill.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/water_spill"
+        }
+      },
+      {
+        "when": [
+          "Wolf",
+          "wolf",
+          "iregex:.*Wolf.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/wolf"
+        }
+      },
+      {
+        "when": [
+          "Yt Banner",
+          "yt banner",
+          "iregex:.*Yt Banner.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/hatsplus/yt_banner"
+        }
       }
     ],
     "fallback": {
