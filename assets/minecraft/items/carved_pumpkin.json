@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when": ["Dealmakers", "iregex:.*Dealmakers.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/misc/utdr/dealmakers/pumpkin"
+        }
+      },
+      {
         "when": ["Shepherd Hat"],
         "model": {
           "type": "minecraft:model",
