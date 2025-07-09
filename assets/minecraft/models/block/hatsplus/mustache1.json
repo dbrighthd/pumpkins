@@ -1,316 +1,86 @@
 {
-  "credit": "Made with Blockbench",
-  "texture_size": [
-    6,
-    13
-  ],
-  "textures": {
-    "0": "item/hatsplus/mustache",
-    "particle": "item/hatsplus/mustache"
-  },
-  "elements": [
-    {
-      "from": [
-        6,
-        4,
-        6
-      ],
-      "to": [
-        10,
-        5,
-        7
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            2.66667,
-            1.23077,
-            13.33333,
-            2.46154
-          ],
-          "texture": "#0"
-        },
-        "east": {
-          "uv": [
-            2.66667,
-            1.23077,
-            5.33333,
-            2.46154
-          ],
-          "texture": "#0"
-        },
-        "south": {
-          "uv": [
-            2.66667,
-            1.23077,
-            13.33333,
-            2.46154
-          ],
-          "texture": "#0"
-        },
-        "west": {
-          "uv": [
-            2.66667,
-            1.23077,
-            5.33333,
-            2.46154
-          ],
-          "texture": "#0"
-        },
-        "up": {
-          "uv": [
-            2.66667,
-            1.23077,
-            13.33333,
-            2.46154
-          ],
-          "texture": "#0"
-        },
-        "down": {
-          "uv": [
-            2.66667,
-            1.23077,
-            13.33333,
-            2.46154
-          ],
-          "texture": "#0"
-        }
-      }
-    },
-    {
-      "from": [
-        5,
-        3,
-        6
-      ],
-      "to": [
-        7,
-        4,
-        7
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            10.66667,
-            2.46154,
-            16,
-            3.69231
-          ],
-          "texture": "#0"
-        },
-        "east": {
-          "uv": [
-            10.66667,
-            2.46154,
-            16,
-            3.69231
-          ],
-          "texture": "#0"
-        },
-        "south": {
-          "uv": [
-            2.66667,
-            2.46154,
-            4.66667,
-            3.46154
-          ],
-          "texture": "#0"
-        },
-        "west": {
-          "uv": [
-            0,
-            2.46154,
-            2.66667,
-            3.69231
-          ],
-          "texture": "#0"
-        },
-        "up": {
-          "uv": [
-            10.66667,
-            2.46154,
-            16,
-            3.69231
-          ],
-          "texture": "#0"
-        },
-        "down": {
-          "uv": [
-            0,
-            2.46154,
-            5.33333,
-            3.69231
-          ],
-          "texture": "#0"
-        }
-      }
-    },
-    {
-      "from": [
-        9,
-        3,
-        6
-      ],
-      "to": [
-        11,
-        4,
-        7
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            10.66667,
-            2.46154,
-            16,
-            3.69231
-          ],
-          "texture": "#0"
-        },
-        "east": {
-          "uv": [
-            10.66667,
-            2.46154,
-            13.33333,
-            3.69231
-          ],
-          "texture": "#0"
-        },
-        "south": {
-          "uv": [
-            10.66667,
-            2.46154,
-            12.66667,
-            3.46154
-          ],
-          "texture": "#0"
-        },
-        "west": {
-          "uv": [
-            5.33333,
-            1.23077,
-            8,
-            2.46154
-          ],
-          "texture": "#0"
-        },
-        "up": {
-          "uv": [
-            10.66667,
-            2.46154,
-            16,
-            3.69231
-          ],
-          "texture": "#0"
-        },
-        "down": {
-          "uv": [
-            10.66667,
-            2.46154,
-            16,
-            3.69231
-          ],
-          "texture": "#0"
-        }
-      }
-    }
-  ],
-  "display": {
-    "thirdperson_righthand": {
-      "translation": [
-        0,
-        2.25,
-        1
-      ]
-    },
-    "thirdperson_lefthand": {
-      "translation": [
-        0,
-        2.25,
-        1
-      ]
-    },
-    "firstperson_righthand": {
-      "translation": [
-        5.25,
-        2.5,
-        0
-      ]
-    },
-    "firstperson_lefthand": {
-      "translation": [
-        5.25,
-        2.5,
-        0
-      ]
-    },
-    "ground": {
-      "rotation": [
-        90,
-        0,
-        0
-      ],
-      "translation": [
-        0,
-        -4.75,
-        0
-      ]
-    },
-    "gui": {
-      "rotation": [
-        12,
-        14,
-        0
-      ],
-      "translation": [
-        1,
-        8.25,
-        0
-      ],
-      "scale": [
-        2.5,
-        2.5,
-        2.5
-      ]
-    },
-    "head": {
-      "translation": [
-        0,
-        1.5,
-        -4.75
-      ],
-      "scale": [
-        1.65,
-        1.6,
-        1.65
-      ]
-    },
-    "fixed": {
-      "translation": [
-        0,
-        10,
-        2.25
-      ],
-      "scale": [
-        2.5,
-        2.5,
-        2.5
-      ]
-    }
-  },
-  "groups": [
-    {
-      "name": "mustache",
-      "origin": [
-        0,
-        0,
-        0
-      ],
-      "color": 0,
-      "children": [
-        0,
-        1,
-        2
-      ]
-    }
-  ]
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [16, 32],
+	"textures": {
+		"0": "item/hatsplus/mustache",
+		"particle": "item/hatsplus/mustache"
+	},
+	"elements": [
+		{
+			"from": [6, 4, 6],
+			"to": [10, 5, 7],
+			"faces": {
+				"north": {"uv": [2, 1, 10, 2], "texture": "#0"},
+				"east": {"uv": [2, 2, 4, 3], "texture": "#0"},
+				"south": {"uv": [2, 1, 10, 2], "texture": "#0"},
+				"west": {"uv": [2, 2, 4, 3], "texture": "#0"},
+				"up": {"uv": [2, 1, 10, 2], "texture": "#0"},
+				"down": {"uv": [2, 1, 10, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 3, 6],
+			"to": [7, 4, 7],
+			"faces": {
+				"north": {"uv": [8, 2, 12, 3], "texture": "#0"},
+				"east": {"uv": [8, 2, 12, 3], "texture": "#0"},
+				"south": {"uv": [3, 2, 4, 3], "texture": "#0"},
+				"west": {"uv": [0, 2, 3, 3], "texture": "#0"},
+				"up": {"uv": [8, 2, 12, 3], "texture": "#0"},
+				"down": {"uv": [0, 2, 4, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 3, 6],
+			"to": [11, 4, 7],
+			"faces": {
+				"north": {"uv": [8, 2, 12, 3], "texture": "#0"},
+				"east": {"uv": [8, 2, 10, 3], "texture": "#0"},
+				"south": {"uv": [8, 2, 10, 3], "texture": "#0"},
+				"west": {"uv": [8, 2, 10, 3], "texture": "#0"},
+				"up": {"uv": [8, 2, 12, 3], "texture": "#0"},
+				"down": {"uv": [8, 2, 12, 3], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.25, 1]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2.25, 1]
+		},
+		"firstperson_righthand": {
+			"translation": [5.25, 2.5, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [5.25, 2.5, 0]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -4.75, 0]
+		},
+		"gui": {
+			"rotation": [12, 14, 0],
+			"translation": [1, 8.25, 0],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"head": {
+			"translation": [0, 1.5, -4.75],
+			"scale": [1.65, 1.6, 1.65]
+		},
+		"fixed": {
+			"translation": [0, 10, 2.25],
+			"scale": [2.5, 2.5, 2.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "mustache",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
 }

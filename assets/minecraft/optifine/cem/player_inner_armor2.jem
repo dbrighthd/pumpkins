@@ -7,7 +7,10 @@
 			"id": "head",
 			"invertAxis": "xy",
 			"translate": [0, -24, 0],
-			"scale": 1
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0], "sizeAdd": 0.5}
+			]
 		}
 	]
 }
