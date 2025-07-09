@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when": ["Low Dealmakers","j4x's Dealmakers", "iregex:.*Low.*Dealmakers.*", "iregex:.*j4x.*Dealmakers.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/misc/utdr/dealmakers_low/pumpkin"
+        }
+      },
+      {
         "when": ["Dealmakers", "iregex:.*Dealmakers.*"],
         "model": {
           "type": "minecraft:model",
