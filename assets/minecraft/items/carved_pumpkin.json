@@ -12,70 +12,70 @@
         }
       },
       {
-        "when": ["Shepherd Hat"],
+        "when": ["Shepherd Hat", "iregex:.*Shepherd.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/villager/shepherd_hat"
         }
       },
       {
-        "when": ["Fletcher Hat"],
+        "when": ["Fletcher Hat", "iregex:.*Fletcher.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/villager/fletcher_hat"
         }
       },
       {
-        "when": ["Fisherman Hat"],
+        "when": ["Fisherman Hat", "iregex:.*Fisherman.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/villager/fisherman_hat"
         }
       },
       {
-        "when": ["Butcher Headband"],
+        "when": ["Butcher Headband", "iregex:.*Butcher.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/villager/butcher_headband"
         }
       },
       {
-        "when": ["Librarian Hat", "Librarian Book"],
+        "when": ["Librarian Hat", "Librarian Book", "iregex:.*Librarian.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/villager/librarian_hat"
         }
       },
       {
-        "when": ["Weaponsmith Eyepatch"],
+        "when": ["Weaponsmith Eyepatch", "iregex:.*Weaponsmith.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/villager/weaponsmith_eyepatch"
         }
       },
       {
-        "when": ["Cartographer Monocle"],
+        "when": ["Cartographer Monocle", "iregex:.*Cartographer.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/villager/cartographer_monacle"
         }
       },
       {
-        "when": ["Armorer Mask"],
+        "when": ["Armorer Mask", "iregex:.*Armorer.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/villager/armorer_mask"
         }
       },
       {
-        "when": ["Straw Hat", "Farmer Hat"],
+        "when": ["Straw Hat", "Farmer Hat", "iregex:.*Farmer.*", "iregex:.*Straw.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/villager/farmer_hat"
         }
       },
       {
-        "when": "Teto",
+        "when": ["Teto", "iregex:.*teto.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/pumpkins/triplebaka/teto/pumpkin"
