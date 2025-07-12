@@ -8,84 +8,84 @@
         "when": ["Low Dealmakers","j4x's Dealmakers", "iregex:.*Low.*Dealmakers.*", "iregex:.*j4x.*Dealmakers.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/utdr/dealmakers_low/pumpkin"
+          "model": "minecraft:block/pumpkins/references/utdr/dealmakers_low/pumpkin"
         }
       },
       {
         "when": ["Dealmakers", "iregex:.*Dealmakers.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/utdr/dealmakers/pumpkin"
+          "model": "minecraft:block/pumpkins/references/utdr/dealmakers/pumpkin"
         }
       },
       {
         "when": ["Shepherd Hat", "iregex:.*Shepherd.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/villager/shepherd_hat"
+          "model": "minecraft:block/pumpkins/misc/villager/shepherd_hat"
         }
       },
       {
         "when": ["Fletcher Hat", "iregex:.*Fletcher.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/villager/fletcher_hat"
+          "model": "minecraft:block/pumpkins/misc/villager/fletcher_hat"
         }
       },
       {
         "when": ["Fisherman Hat", "iregex:.*Fisherman.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/villager/fisherman_hat"
+          "model": "minecraft:block/pumpkins/misc/villager/fisherman_hat"
         }
       },
       {
         "when": ["Butcher Headband", "iregex:.*Butcher.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/villager/butcher_headband"
+          "model": "minecraft:block/pumpkins/misc/villager/butcher_headband"
         }
       },
       {
         "when": ["Librarian Hat", "Librarian Book", "iregex:.*Librarian.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/villager/librarian_hat"
+          "model": "minecraft:block/pumpkins/misc/villager/librarian_hat"
         }
       },
       {
         "when": ["Weaponsmith Eyepatch", "iregex:.*Weaponsmith.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/villager/weaponsmith_eyepatch"
+          "model": "minecraft:block/pumpkins/misc/villager/weaponsmith_eyepatch"
         }
       },
       {
         "when": ["Cartographer Monocle", "iregex:.*Cartographer.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/villager/cartographer_monacle"
+          "model": "minecraft:block/pumpkins/misc/villager/cartographer_monacle"
         }
       },
       {
         "when": ["Armorer Mask", "iregex:.*Armorer.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/villager/armorer_mask"
+          "model": "minecraft:block/pumpkins/misc/villager/armorer_mask"
         }
       },
       {
         "when": ["Straw Hat", "Farmer Hat", "iregex:.*Farmer.*", "iregex:.*Straw.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/villager/farmer_hat"
+          "model": "minecraft:block/pumpkins/misc/villager/farmer_hat"
         }
       },
       {
         "when": ["Teto", "iregex:.*teto.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/triplebaka/teto/pumpkin"
+          "model": "minecraft:block/pumpkins/references/triplebaka/teto/pumpkin"
         }
       },
       {
@@ -97,7 +97,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/amongus/cheese/pumpkin"
+          "model": "minecraft:block/pumpkins/references/amongus/cheese/pumpkin"
         }
       },
       {
@@ -109,7 +109,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/amongus/cherry/pumpkin"
+          "model": "minecraft:block/pumpkins/references/amongus/cherry/pumpkin"
         }
       },
       {
@@ -121,7 +121,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/amongus/child/pumpkin"
+          "model": "minecraft:block/pumpkins/references/amongus/child/pumpkin"
         }
       },
       {
@@ -133,7 +133,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/amongus/dum/pumpkin"
+          "model": "minecraft:block/pumpkins/references/amongus/dum/pumpkin"
         }
       },
       {
@@ -145,7 +145,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/amongus/flamingo_floaty/pumpkin"
+          "model": "minecraft:block/pumpkins/references/amongus/flamingo_floaty/pumpkin"
         }
       },
       {
@@ -157,7 +157,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/amongus/plunger/pumpkin"
+          "model": "minecraft:block/pumpkins/references/amongus/plunger/pumpkin"
         }
       },
       {
@@ -169,7 +169,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/amongus/stickman/pumpkin"
+          "model": "minecraft:block/pumpkins/references/amongus/stickman/pumpkin"
         }
       },
       {
@@ -181,7 +181,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/amongus/toilet_paper_roll/pumpkin"
+          "model": "minecraft:block/pumpkins/references/amongus/toilet_paper_roll/pumpkin"
         }
       },
       {
@@ -193,7 +193,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/amongus/tophat/pumpkin"
+          "model": "minecraft:block/pumpkins/references/amongus/tophat/pumpkin"
         }
       },
       {
@@ -505,7 +505,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/black/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/black/pumpkin"
         }
       },
       {
@@ -517,7 +517,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/blue/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/blue/pumpkin"
         }
       },
       {
@@ -529,7 +529,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/brown/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/brown/pumpkin"
         }
       },
       {
@@ -541,7 +541,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/cyan/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/cyan/pumpkin"
         }
       },
       {
@@ -553,7 +553,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/gray/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/gray/pumpkin"
         }
       },
       {
@@ -565,7 +565,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/green/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/green/pumpkin"
         }
       },
       {
@@ -577,7 +577,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/light_blue/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/light_blue/pumpkin"
         }
       },
       {
@@ -589,7 +589,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/light_gray/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/light_gray/pumpkin"
         }
       },
       {
@@ -601,7 +601,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/lime/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/lime/pumpkin"
         }
       },
       {
@@ -613,7 +613,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/magenta/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/magenta/pumpkin"
         }
       },
       {
@@ -625,7 +625,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/orange/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/orange/pumpkin"
         }
       },
       {
@@ -637,7 +637,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pink/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pink/pumpkin"
         }
       },
       {
@@ -649,7 +649,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/agender/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/agender/pumpkin"
         }
       },
       {
@@ -661,7 +661,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/androgynous/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/androgynous/pumpkin"
         }
       },
       {
@@ -673,7 +673,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/aromantic/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/aromantic/pumpkin"
         }
       },
       {
@@ -685,7 +685,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/asexual/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/asexual/pumpkin"
         }
       },
       {
@@ -697,7 +697,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/bisexual/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/bisexual/pumpkin"
         }
       },
       {
@@ -709,7 +709,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/demiboy/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/demiboy/pumpkin"
         }
       },
       {
@@ -721,7 +721,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/demigirl/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/demigirl/pumpkin"
         }
       },
       {
@@ -733,7 +733,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/deminonbinary/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/deminonbinary/pumpkin"
         }
       },
       {
@@ -745,7 +745,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/genderfluid/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/genderfluid/pumpkin"
         }
       },
       {
@@ -757,7 +757,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/genderqueer/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/genderqueer/pumpkin"
         }
       },
       {
@@ -769,7 +769,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/lesbian/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/lesbian/pumpkin"
         }
       },
       {
@@ -781,7 +781,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/neutrois/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/neutrois/pumpkin"
         }
       },
       {
@@ -793,7 +793,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/nonbinary/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/nonbinary/pumpkin"
         }
       },
       {
@@ -805,7 +805,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/pansexual/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/pansexual/pumpkin"
         }
       },
       {
@@ -817,7 +817,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/polysexual/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/polysexual/pumpkin"
         }
       },
       {
@@ -829,7 +829,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/transgender/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/transgender/pumpkin"
         }
       },
       {
@@ -841,7 +841,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/pride_beanies/two_spirit/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/pride_beanies/two_spirit/pumpkin"
         }
       },
       {
@@ -853,7 +853,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/purple/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/purple/pumpkin"
         }
       },
       {
@@ -865,7 +865,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/red/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/red/pumpkin"
         }
       },
       {
@@ -877,7 +877,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/tnt/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/tnt/pumpkin"
         }
       },
       {
@@ -889,7 +889,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/white/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/white/pumpkin"
         }
       },
       {
@@ -901,7 +901,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/beanies/yellow/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/beanies/yellow/pumpkin"
         }
       },
       {
@@ -913,7 +913,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/black"
+          "model": "minecraft:block/pumpkins/cutesy/bows/black"
         }
       },
       {
@@ -925,7 +925,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/blue"
+          "model": "minecraft:block/pumpkins/cutesy/bows/blue"
         }
       },
       {
@@ -937,7 +937,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/brown"
+          "model": "minecraft:block/pumpkins/cutesy/bows/brown"
         }
       },
       {
@@ -949,7 +949,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/cyan"
+          "model": "minecraft:block/pumpkins/cutesy/bows/cyan"
         }
       },
       {
@@ -961,7 +961,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/gray"
+          "model": "minecraft:block/pumpkins/cutesy/bows/gray"
         }
       },
       {
@@ -973,7 +973,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/green"
+          "model": "minecraft:block/pumpkins/cutesy/bows/green"
         }
       },
       {
@@ -985,7 +985,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/light_blue"
+          "model": "minecraft:block/pumpkins/cutesy/bows/light_blue"
         }
       },
       {
@@ -997,7 +997,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/light_gray"
+          "model": "minecraft:block/pumpkins/cutesy/bows/light_gray"
         }
       },
       {
@@ -1009,7 +1009,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/lime"
+          "model": "minecraft:block/pumpkins/cutesy/bows/lime"
         }
       },
       {
@@ -1021,7 +1021,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/magenta"
+          "model": "minecraft:block/pumpkins/cutesy/bows/magenta"
         }
       },
       {
@@ -1033,7 +1033,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/orange"
+          "model": "minecraft:block/pumpkins/cutesy/bows/orange"
         }
       },
       {
@@ -1045,7 +1045,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/pink"
+          "model": "minecraft:block/pumpkins/cutesy/bows/pink"
         }
       },
       {
@@ -1057,7 +1057,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/purple"
+          "model": "minecraft:block/pumpkins/cutesy/bows/purple"
         }
       },
       {
@@ -1069,7 +1069,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/red"
+          "model": "minecraft:block/pumpkins/cutesy/bows/red"
         }
       },
       {
@@ -1081,7 +1081,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/white"
+          "model": "minecraft:block/pumpkins/cutesy/bows/white"
         }
       },
       {
@@ -1093,7 +1093,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/bows/yellow"
+          "model": "minecraft:block/pumpkins/cutesy/bows/yellow"
         }
       },
       {
@@ -1105,7 +1105,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/black/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/black/pumpkin"
         }
       },
       {
@@ -1117,7 +1117,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/blue/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/blue/pumpkin"
         }
       },
       {
@@ -1129,7 +1129,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/brown/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/brown/pumpkin"
         }
       },
       {
@@ -1141,7 +1141,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/cyan/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/cyan/pumpkin"
         }
       },
       {
@@ -1153,7 +1153,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/gray/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/gray/pumpkin"
         }
       },
       {
@@ -1165,7 +1165,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/green/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/green/pumpkin"
         }
       },
       {
@@ -1177,7 +1177,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/light_blue/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/light_blue/pumpkin"
         }
       },
       {
@@ -1189,7 +1189,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/light_gray/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/light_gray/pumpkin"
         }
       },
       {
@@ -1201,7 +1201,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/lime/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/lime/pumpkin"
         }
       },
       {
@@ -1213,7 +1213,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/magenta/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/magenta/pumpkin"
         }
       },
       {
@@ -1225,7 +1225,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/orange/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/orange/pumpkin"
         }
       },
       {
@@ -1237,7 +1237,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/pink/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/pink/pumpkin"
         }
       },
       {
@@ -1249,7 +1249,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/purple/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/purple/pumpkin"
         }
       },
       {
@@ -1261,7 +1261,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/red/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/red/pumpkin"
         }
       },
       {
@@ -1273,7 +1273,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/white/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/white/pumpkin"
         }
       },
       {
@@ -1285,7 +1285,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/cat_ears/yellow/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/cat_ears/yellow/pumpkin"
         }
       },
       {
@@ -1297,7 +1297,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/b/bishop/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/b/bishop/pumpkin"
         }
       },
       {
@@ -1309,7 +1309,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/b/king/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/b/king/pumpkin"
         }
       },
       {
@@ -1321,7 +1321,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/b/knight/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/b/knight/pumpkin"
         }
       },
       {
@@ -1333,7 +1333,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/b/pawn/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/b/pawn/pumpkin"
         }
       },
       {
@@ -1345,7 +1345,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/b/queen/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/b/queen/pumpkin"
         }
       },
       {
@@ -1357,7 +1357,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/b/rook/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/b/rook/pumpkin"
         }
       },
       {
@@ -1369,7 +1369,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/w/bishop/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/w/bishop/pumpkin"
         }
       },
       {
@@ -1381,7 +1381,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/w/king/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/w/king/pumpkin"
         }
       },
       {
@@ -1393,7 +1393,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/w/knight/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/w/knight/pumpkin"
         }
       },
       {
@@ -1405,7 +1405,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/w/pawn/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/w/pawn/pumpkin"
         }
       },
       {
@@ -1417,7 +1417,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/w/queen/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/w/queen/pumpkin"
         }
       },
       {
@@ -1429,7 +1429,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/chess/w/rook/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/chess/w/rook/pumpkin"
         }
       },
       {
@@ -1441,7 +1441,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/black/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/black/pumpkin"
         }
       },
       {
@@ -1453,7 +1453,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/blue/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/blue/pumpkin"
         }
       },
       {
@@ -1465,7 +1465,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/brown/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/brown/pumpkin"
         }
       },
       {
@@ -1477,7 +1477,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/cyan/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/cyan/pumpkin"
         }
       },
       {
@@ -1489,7 +1489,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/green/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/green/pumpkin"
         }
       },
       {
@@ -1501,7 +1501,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/grey/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/grey/pumpkin"
         }
       },
       {
@@ -1513,7 +1513,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/light_blue/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/light_blue/pumpkin"
         }
       },
       {
@@ -1525,7 +1525,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/light_gray/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/light_gray/pumpkin"
         }
       },
       {
@@ -1537,7 +1537,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/lime/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/lime/pumpkin"
         }
       },
       {
@@ -1549,7 +1549,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/magenta/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/magenta/pumpkin"
         }
       },
       {
@@ -1561,7 +1561,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/orange/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/orange/pumpkin"
         }
       },
       {
@@ -1573,7 +1573,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/pink/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/pink/pumpkin"
         }
       },
       {
@@ -1585,7 +1585,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/purple/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/purple/pumpkin"
         }
       },
       {
@@ -1597,7 +1597,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/red/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/red/pumpkin"
         }
       },
       {
@@ -1609,7 +1609,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/the_flower/pumpkin"
+          "model": "minecraft:block/pumpkins/references/the_flower/pumpkin"
         }
       },
       {
@@ -1621,7 +1621,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/white/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/white/pumpkin"
         }
       },
       {
@@ -1633,7 +1633,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flowers/yellow/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flowers/yellow/pumpkin"
         }
       },
       {
@@ -1645,7 +1645,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/black/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/black/pumpkin"
         }
       },
       {
@@ -1657,7 +1657,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/blue/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/blue/pumpkin"
         }
       },
       {
@@ -1669,7 +1669,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/brown/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/brown/pumpkin"
         }
       },
       {
@@ -1681,7 +1681,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/cyan/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/cyan/pumpkin"
         }
       },
       {
@@ -1693,7 +1693,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/green/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/green/pumpkin"
         }
       },
       {
@@ -1705,7 +1705,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/grey/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/grey/pumpkin"
         }
       },
       {
@@ -1717,7 +1717,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/light_blue/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/light_blue/pumpkin"
         }
       },
       {
@@ -1729,7 +1729,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/light_gray/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/light_gray/pumpkin"
         }
       },
       {
@@ -1741,7 +1741,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/lime/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/lime/pumpkin"
         }
       },
       {
@@ -1753,7 +1753,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/magenta/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/magenta/pumpkin"
         }
       },
       {
@@ -1765,7 +1765,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/orange/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/orange/pumpkin"
         }
       },
       {
@@ -1777,7 +1777,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/pink/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/pink/pumpkin"
         }
       },
       {
@@ -1789,7 +1789,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/purple/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/purple/pumpkin"
         }
       },
       {
@@ -1801,7 +1801,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/red/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/red/pumpkin"
         }
       },
       {
@@ -1813,7 +1813,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/white/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/white/pumpkin"
         }
       },
       {
@@ -1825,7 +1825,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/flower_crowns/yellow/pumpkin"
+          "model": "minecraft:block/pumpkins/cutesy/flower_crowns/yellow/pumpkin"
         }
       },
       {
@@ -1837,7 +1837,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/black/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/black/pumpkin"
         }
       },
       {
@@ -1849,7 +1849,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/blue/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/blue/pumpkin"
         }
       },
       {
@@ -1861,7 +1861,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/brown/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/brown/pumpkin"
         }
       },
       {
@@ -1873,7 +1873,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/cyan/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/cyan/pumpkin"
         }
       },
       {
@@ -1885,7 +1885,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/green/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/green/pumpkin"
         }
       },
       {
@@ -1897,7 +1897,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/grey/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/grey/pumpkin"
         }
       },
       {
@@ -1909,7 +1909,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/light_blue/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/light_blue/pumpkin"
         }
       },
       {
@@ -1921,7 +1921,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/light_grey/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/light_grey/pumpkin"
         }
       },
       {
@@ -1933,7 +1933,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/lime/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/lime/pumpkin"
         }
       },
       {
@@ -1945,7 +1945,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/magenta/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/magenta/pumpkin"
         }
       },
       {
@@ -1957,7 +1957,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/orange/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/orange/pumpkin"
         }
       },
       {
@@ -1969,7 +1969,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/pink/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/pink/pumpkin"
         }
       },
       {
@@ -1981,7 +1981,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/purple/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/purple/pumpkin"
         }
       },
       {
@@ -1993,7 +1993,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/red/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/red/pumpkin"
         }
       },
       {
@@ -2005,7 +2005,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/white/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/white/pumpkin"
         }
       },
       {
@@ -2017,7 +2017,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/black/yellow/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/black/yellow/pumpkin"
         }
       },
       {
@@ -2029,7 +2029,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/dbright_headset/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/dbright_headset/pumpkin"
         }
       },
       {
@@ -2041,7 +2041,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/black/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/black/pumpkin"
         }
       },
       {
@@ -2053,7 +2053,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/blue/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/blue/pumpkin"
         }
       },
       {
@@ -2065,7 +2065,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/brown/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/brown/pumpkin"
         }
       },
       {
@@ -2077,7 +2077,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/cyan/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/cyan/pumpkin"
         }
       },
       {
@@ -2089,7 +2089,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/green/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/green/pumpkin"
         }
       },
       {
@@ -2101,7 +2101,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/grey/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/grey/pumpkin"
         }
       },
       {
@@ -2113,7 +2113,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/light_blue/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/light_blue/pumpkin"
         }
       },
       {
@@ -2125,7 +2125,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/light_grey/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/light_grey/pumpkin"
         }
       },
       {
@@ -2137,7 +2137,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/lime/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/lime/pumpkin"
         }
       },
       {
@@ -2149,7 +2149,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/magenta/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/magenta/pumpkin"
         }
       },
       {
@@ -2161,7 +2161,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/orange/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/orange/pumpkin"
         }
       },
       {
@@ -2173,7 +2173,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/pink/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/pink/pumpkin"
         }
       },
       {
@@ -2185,7 +2185,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/purple/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/purple/pumpkin"
         }
       },
       {
@@ -2197,7 +2197,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/red/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/red/pumpkin"
         }
       },
       {
@@ -2209,7 +2209,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/white/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/white/pumpkin"
         }
       },
       {
@@ -2221,7 +2221,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/headsets/white/yellow/pumpkin"
+          "model": "minecraft:block/pumpkins/headwear/headsets/white/yellow/pumpkin"
         }
       },
       {
@@ -2233,7 +2233,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/holiday/santahat/pumpkin"
+          "model": "minecraft:block/pumpkins/misc/holiday/santahat/pumpkin"
         }
       },
       {
@@ -2257,7 +2257,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/balladeer_hat/pumpkin"
+          "model": "minecraft:block/pumpkins/references/balladeer_hat/pumpkin"
         }
       },
       {
@@ -2293,7 +2293,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/bunny_hat/pumpkin"
+          "model": "minecraft:block/pumpkins/animals/bunny_hat/pumpkin"
         }
       },
       {
@@ -2305,7 +2305,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/chapulin_colorado/pumpkin"
+          "model": "minecraft:block/pumpkins/references/chapulin_colorado/pumpkin"
         }
       },
       {
@@ -2341,7 +2341,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/crescent_king/model"
+          "model": "minecraft:block/pumpkins/references/crescent_king/model"
         }
       },
       {
@@ -2437,7 +2437,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/gabriel_halo/pumpkin"
+          "model": "minecraft:block/pumpkins/references/gabriel_halo/pumpkin"
         }
       },
       {
@@ -2497,7 +2497,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/jevil_hat/pumpkin"
+          "model": "minecraft:block/pumpkins/references/jevil_hat/pumpkin"
         }
       },
       {
@@ -2557,7 +2557,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/plumbobs/1yellow/pumpkin"
+          "model": "minecraft:block/pumpkins/references/plumbobs/1yellow/pumpkin"
         }
       },
       {
@@ -2569,7 +2569,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/plumbobs/2orange/pumpkin"
+          "model": "minecraft:block/pumpkins/references/plumbobs/2orange/pumpkin"
         }
       },
       {
@@ -2581,7 +2581,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/plumbobs/3red/pumpkin"
+          "model": "minecraft:block/pumpkins/references/plumbobs/3red/pumpkin"
         }
       },
       {
@@ -2593,7 +2593,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/plumbobs/4green/pumpkin"
+          "model": "minecraft:block/pumpkins/references/plumbobs/4green/pumpkin"
         }
       },
       {
@@ -2641,7 +2641,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/swinub/pumpkin"
+          "model": "minecraft:block/pumpkins/references/swinub/pumpkin"
         }
       },
       {
@@ -2665,7 +2665,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/misc/wanderer_hat/pumpkin"
+          "model": "minecraft:block/pumpkins/references/wanderer_hat/pumpkin"
         }
       },
       {
@@ -2737,7 +2737,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/sw/p1clonetrooper/pumpkin"
+          "model": "minecraft:block/pumpkins/references/sw/p1clonetrooper/pumpkin"
         }
       },
       {
@@ -2749,7 +2749,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/sw/p2clonetrooper/pumpkin"
+          "model": "minecraft:block/pumpkins/references/sw/p2clonetrooper/pumpkin"
         }
       },
       {
@@ -2761,7 +2761,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/sw/stormtrooper/pumpkin"
+          "model": "minecraft:block/pumpkins/references/sw/stormtrooper/pumpkin"
         }
       },
       {
