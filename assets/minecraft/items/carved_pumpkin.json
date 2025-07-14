@@ -84,8 +84,21 @@
       {
         "when": ["Teto", "iregex:.*teto.*"],
         "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/references/triplebaka/teto/pumpkin"
+          "type": "minecraft:select",
+          "property": "minecraft:context_entity_type",
+          "cases": [
+            {
+              "when": "minecraft:armor_stand",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:block/pumpkins/references/triplebaka/teto/armorstand_pumpkin"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/pumpkins/references/triplebaka/teto/pumpkin"
+          }
         }
       },
       {
