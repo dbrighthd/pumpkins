@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when": ["IMAGE_FRIEND", "iregex:.*friend.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/references/utdr/image_friend/pumpkin"
+        }
+      },
+      {
         "when": ["Tenna", "iregex:.*Tenna.*"],
         "model": {
           "type": "minecraft:model",
