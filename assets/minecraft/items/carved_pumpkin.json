@@ -7,8 +7,21 @@
       {
         "when": ["IMAGE_FRIEND", "iregex:.*friend.*"],
         "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/references/utdr/image_friend/pumpkin"
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:block/pumpkins/references/utdr/image_friend/pumpkin_frame"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/pumpkins/references/utdr/image_friend/pumpkin"
+          }
         }
       },
       {
