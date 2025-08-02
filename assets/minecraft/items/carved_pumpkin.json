@@ -129,6 +129,34 @@
         }
       },
       {
+        "when": ["Oscar", "iregex:.*Oscar.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/references/papp/oscar/pumpkin"
+        }
+      },
+      {
+        "when": ["Penny", "iregex:.*Penny.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/references/papp/penny/pumpkin"
+        }
+      },
+      {
+        "when": ["Sandra", "iregex:.*Sandra.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/references/papp/sandra/pumpkin"
+        }
+      },
+      {
+        "when": ["Winston", "iregex:.*Winston.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/references/papp/winston/pumpkin"
+        }
+      },
+      {
         "when": [
           "Cheese",
           "cheese",
