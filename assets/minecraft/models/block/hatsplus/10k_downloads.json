@@ -64,7 +64,7 @@
             0.25,
             0.25
           ],
-          "texture": "#missing"
+          "texture": "#0"
         },
         "down": {
           "uv": [
@@ -336,7 +336,7 @@
             7.25,
             7
           ],
-          "texture": "#missing"
+          "texture": "#0"
         },
         "down": {
           "uv": [

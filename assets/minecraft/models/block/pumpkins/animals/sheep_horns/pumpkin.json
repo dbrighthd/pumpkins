@@ -160,7 +160,7 @@
             4,
             3
           ],
-          "texture": "#missing"
+          "texture": "#0"
         },
         "east": {
           "uv": [
@@ -228,7 +228,7 @@
             4,
             3
           ],
-          "texture": "#missing"
+          "texture": "#0"
         },
         "east": {
           "uv": [

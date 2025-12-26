@@ -137,7 +137,7 @@
             1,
             6
           ],
-          "texture": "#missing"
+          "texture": "#1"
         }
       }
     },
@@ -205,7 +205,7 @@
             1,
             6
           ],
-          "texture": "#missing"
+          "texture": "#1"
         }
       }
     },
@@ -246,7 +246,7 @@
             2,
             1
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "west": {
           "uv": [

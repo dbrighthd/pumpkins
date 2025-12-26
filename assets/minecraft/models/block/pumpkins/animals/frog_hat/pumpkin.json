@@ -792,7 +792,7 @@
             2,
             2
           ],
-          "texture": "#missing"
+          "texture": "#0"
         },
         "west": {
           "uv": [
@@ -860,7 +860,7 @@
             2,
             2
           ],
-          "texture": "#missing"
+          "texture": "#0"
         },
         "west": {
           "uv": [
