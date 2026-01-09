@@ -190,7 +190,7 @@
 					"right_drill.tx": "if(frame_counter == var.prev_frame, right_drill.tx, -6 - var.helmet)",
 					"left_drill.rx": "if(frame_counter == var.prev_frame, left_drill.rx, var.left_real_angle_teto)",
 					"left_drill.ty": "if(frame_counter == var.prev_frame, left_drill.ty, -30- if(var.helmet ==1,((var.fallflyinglerp2) * 1.3),((var.fallflyinglerp2) * 1.3)))",
-					"head.ry": "if(frame_counter == var.prev_frame, head.ry, if(var.isinvis == 1 && var.fallflying2 == 1, 0, head.ry))",
+					
 					"left_drill.tz": "if(frame_counter == var.prev_frame, left_drill.tz, 2 + if(var.helmet ==1,((var.fallflyinglerp2) * 1.7),((var.fallflyinglerp2) * 1.2)))",
 					"left_drill.tx": "if(frame_counter == var.prev_frame, left_drill.tx, 6 + var.helmet)",
 					"var.counter42": "if(frame_counter == var.prev_frame, var.counter42, var.counter4prev2)",
