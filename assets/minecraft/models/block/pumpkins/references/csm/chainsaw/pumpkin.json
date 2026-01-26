@@ -1,0 +1,65 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/pumpkins/csm/chainsaw",
+		"1": "item/pumpkins/csm/chainsaw",
+		"particle": "item/pumpkins/csm/chainsaw"
+	},
+	"elements": [
+		{
+			"from": [7.75, 0, -5],
+			"to": [7.75, 5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 0]},
+			"faces": {
+				"north": {"uv": [1, 5, 1.25, 7.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 10.5, 2.5], "texture": "#1"},
+				"south": {"uv": [1.5, 5, 1.75, 7.5], "texture": "#0"},
+				"west": {"uv": [0, 2.5, 10.5, 5], "texture": "#1"},
+				"up": {"uv": [0.25, 15.5, 0, 5], "texture": "#0"},
+				"down": {"uv": [0.75, 5, 0.5, 15.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, 90],
+			"translation": [-3.5, -1.75, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, 90],
+			"translation": [-3.5, -1.75, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [47, 0, 0],
+			"translation": [6.75, 0, 3.25],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [47, 0, 0],
+			"translation": [6.75, 0, 3.25],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"ground": {
+			"translation": [0, 5.75, 0]
+		},
+		"gui": {
+			"rotation": [-90, 43, 90],
+			"translation": [-2, 5.75, 0]
+		},
+		"head": {
+			"rotation": [16, 0, 0],
+			"translation": [0, 15.25, -5.5],
+			"scale": [2, 2, 1.5]
+		},
+		"fixed": {
+			"translation": [0, 7.5, 6.75],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"translation": [0, 17.75, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

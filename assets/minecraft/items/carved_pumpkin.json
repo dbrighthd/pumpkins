@@ -6,6 +6,16 @@
     "cases": [
       {
         "when": [
+          "Chainsaw",
+          "iregex:.*chainsaw.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/references/csm/chainsaw/pumpkin"
+        }
+      },
+      {
+        "when": [
           "IMAGE_FRIEND",
           "iregex:.*friend.*"
         ],
