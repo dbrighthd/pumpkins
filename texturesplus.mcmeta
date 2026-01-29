@@ -1,4 +1,6 @@
 {
     "required_dependencies": [],
-    "optional_dependencies": []
+    "optional_dependencies": [
+        "dbrighthd_regex_mod"
+    ]
 }
