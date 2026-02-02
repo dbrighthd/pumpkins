@@ -6,6 +6,16 @@
     "cases": [
       {
         "when": [
+          "Drone Eye",
+          "iregex:.*j4x.*drone.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/references/j4x/drone_eye/pumpkin"
+        }
+      },
+      {
+        "when": [
           "Chainsaw",
           "iregex:.*chainsaw.*"
         ],
