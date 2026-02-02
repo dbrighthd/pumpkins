@@ -10,8 +10,21 @@
           "iregex:.*dropsane.*teto.*"
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:block/pumpkins/references/vocaloid/dropsane_teto/pumpkin"
+          "type": "minecraft:select",
+          "property": "minecraft:context_entity_type",
+          "cases": [
+            {
+              "when": "minecraft:armor_stand",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:block/pumpkins/references/vocaloid/dropsane_teto/pumpkin_armor_stand"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/pumpkins/references/vocaloid/dropsane_teto/pumpkin"
+          }
         }
       },
       {
