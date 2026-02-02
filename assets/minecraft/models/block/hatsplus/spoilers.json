@@ -5,6 +5,7 @@
     32
   ],
   "textures": {
+    "particle": "item/hatsplus/elytra",
     "0": "item/hatsplus/elytra"
   },
   "elements": [

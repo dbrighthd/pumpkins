@@ -2,6 +2,7 @@
   "credit": "Made with Blockbench",
   "ambientocclusion": false,
   "textures": {
+    "particle": "item/hatsplus/poppy",
     "plant": "item/hatsplus/poppy"
   },
   "elements": [

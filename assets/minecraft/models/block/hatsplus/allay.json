@@ -5,6 +5,7 @@
     32
   ],
   "textures": {
+    "particle": "item/hatsplus/allay",
     "0": "item/hatsplus/allay"
   },
   "elements": [

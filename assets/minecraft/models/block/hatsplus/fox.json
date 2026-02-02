@@ -5,6 +5,7 @@
     32
   ],
   "textures": {
+    "particle": "item/hatsplus/fox",
     "0": "item/hatsplus/fox"
   },
   "elements": [

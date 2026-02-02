@@ -6,6 +6,7 @@
     32
   ],
   "textures": {
+    "particle": "item/hatsplus/lightning_rod",
     "1": "item/hatsplus/lightning_rod"
   },
   "elements": [

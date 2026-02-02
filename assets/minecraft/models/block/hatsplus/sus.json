@@ -1,6 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
+    "particle": "item/hatsplus/sus1",
     "0": "item/hatsplus/sus1",
     "1": "item/hatsplus/sus2"
   },

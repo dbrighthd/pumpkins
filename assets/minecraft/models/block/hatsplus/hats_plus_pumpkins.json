@@ -2,6 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "item/hatsplus/axolotl1",
+    "particle": "item/hatsplus/hats_plus_pumpkins",
     "1": "item/hatsplus/hats_plus_pumpkins"
   },
   "elements": [

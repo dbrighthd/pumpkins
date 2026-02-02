@@ -5,6 +5,7 @@
     32
   ],
   "textures": {
+    "particle": "item/hatsplus/arrow",
     "0": "item/hatsplus/arrow"
   },
   "elements": [
