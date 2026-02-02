@@ -2648,6 +2648,17 @@
       },
       {
         "when": [
+          "3D Pumpkin",
+          "3D pumpkin",
+          "ipattern:*3d*pumpkin*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/misc/hole_pumpkin/pumpkin"
+        }
+      },
+      {
+        "when": [
           "Jackolantern",
           "jackolantern",
           "ipattern:*Jack*o*lantern*",
