@@ -6,6 +6,16 @@
     "cases": [
       {
         "when": [
+          "Dropsane Teto",
+          "iregex:.*dropsane.*teto.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/references/vocaloid/dropsane_teto/pumpkin"
+        }
+      },
+      {
+        "when": [
           "Drone Eye",
           "iregex:.*j4x.*drone.*"
         ],
