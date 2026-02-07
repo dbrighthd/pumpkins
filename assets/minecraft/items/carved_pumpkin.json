@@ -6,6 +6,16 @@
     "cases": [
       {
         "when": [
+          "Creaking",
+          "iregex:.*Creaking.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/misc/creaking/pumpkin"
+        }
+      },
+      {
+        "when": [
           "Dropsane Teto",
           "iregex:.*dropsane.*teto.*"
         ],

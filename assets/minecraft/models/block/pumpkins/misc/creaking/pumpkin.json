@@ -1,0 +1,63 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/orientable",
+	"texture_size": [64, 64],
+	"textures": {
+		"6": "item/pumpkins/misc/creaking/creaking",
+		"particle": "block/jack_o_lantern"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [-8, 0, 9],
+			"to": [0, 20, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -18, 9]},
+			"faces": {
+				"north": {"uv": [3, 11, 4, 13.5], "texture": "#6"},
+				"east": {"uv": [3, 10, 3, 13.5], "texture": "#6"},
+				"south": {"uv": [6.5, 11, 7.5, 13.5], "texture": "#6"},
+				"west": {"uv": [5.25, 10, 5.25, 13.5], "texture": "#6"},
+				"up": {"uv": [5.25, 10, 3, 10], "texture": "#6"},
+				"down": {"uv": [7.5, 10, 5.25, 10], "texture": "#6"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [15.75, 0, 9],
+			"to": [23.75, 22, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.75, -18, 9]},
+			"faces": {
+				"north": {"uv": [9.75, 3.5, 10.75, 6.25], "texture": "#6"},
+				"east": {"uv": [8.5, 3, 8.5, 6.5], "texture": "#6"},
+				"south": {"uv": [10.75, 3.5, 11.75, 6.25], "texture": "#6"},
+				"west": {"uv": [10.75, 3, 10.75, 6.5], "texture": "#6"},
+				"up": {"uv": [10.75, 3, 8.5, 3], "texture": "#6"},
+				"down": {"uv": [13, 3, 10.75, 3], "texture": "#6"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [69, -28.25, 0],
+			"scale": [0.20117, 0.20117, 0.20117]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 117, 0],
+			"scale": [0.26172, 0.26172, 0.26172]
+		},
+		"ground": {
+			"scale": [0.29492, 0.29492, 0.29492]
+		},
+		"gui": {
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"head": {
+			"translation": [0, 0, -0.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"translation": [0, 0, -1.25]
+		}
+	}
+}
