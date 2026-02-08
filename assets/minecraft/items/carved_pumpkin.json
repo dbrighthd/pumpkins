@@ -207,6 +207,52 @@
       },
       {
         "when": [
+          "Mesmerizer Teto",
+          "iregex:.*mesmerizer.*teto.*"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:context_entity_type",
+          "cases": [
+            {
+              "when": "minecraft:armor_stand",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:block/pumpkins/references/triplebaka/teto_mesmerizer/armorstand_pumpkin"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/pumpkins/references/triplebaka/teto_mesmerizer/pumpkin"
+          }
+        }
+      },
+      {
+        "when": [
+          "Purple Teto",
+          "iregex:.*purple.*teto.*"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:context_entity_type",
+          "cases": [
+            {
+              "when": "minecraft:armor_stand",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:block/pumpkins/references/triplebaka/purple_teto/armorstand_pumpkin"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/pumpkins/references/triplebaka/purple_teto/pumpkin"
+          }
+        }
+      },
+      {
+        "when": [
           "Teto",
           "iregex:.*teto.*"
         ],
