@@ -148,26 +148,41 @@
 					"var.totalspeed2": "if(frame_counter == var.prev_frame, var.totalspeed2, sqrt((var.xspeed2 * var.xspeed2) + (var.yspeed2 * var.yspeed2) + (var.zspeed2 * var.zspeed2)))",
 					"var.fallflying2": "if(frame_counter == var.prev_frame, var.fallflying2, if(nbt(FallFlying,raw:1b),1,-1))",
 					"var.helmet": "if(frame_counter == var.prev_frame, var.helmet, if(nbt(equipment.head,raw:iregex:.*helmet.*),1,0))",
-					"ahoge.visible": "if(frame_counter == var.prev_frame, ahoge.visible, (if(var.helmet == 1, false, true)))",
+					"var.ahoge_visible" : "if(frame_counter == var.prev_frame, var.ahoge_visible, (if(var.helmet == 1, false, true)))",
+					"ahoge.visible": "var.ahoge_visible == 1",
 					"var.isinvis": "if(frame_counter == var.prev_frame, var.isinvis, if(nbt(equipment.chest,raw:iregex:.*invisible.*),0,1))",
 					"var.fallflyinglerp2": "if(frame_counter == var.prev_frame, var.fallflyinglerp2, clamp(var.fallflyinglerp2 + 2*frame_time * var.fallflying2,0,1))",
 					"var.fallflyinglerpslow": "if(frame_counter == var.prev_frame, var.fallflyinglerpslow, clamp(var.fallflyinglerp2 + 0.5*frame_time * var.fallflying2,0,1))",
-					"right_flame.sy": "if(frame_counter == var.prev_frame, right_flame.sy, clamp(var.totalspeed2/10 * var.fallflyinglerpslow* var.teto_s_mult,0,3))",
-					"rflame1.sy": "if(frame_counter == var.prev_frame, rflame1.sy, abs(sin(time/1.2)))",
-					"rflame2.sy": "if(frame_counter == var.prev_frame, rflame2.sy, abs(cos(time/1.2)))",
-					"left_flame.sy": "if(frame_counter == var.prev_frame, left_flame.sy, right_flame.sy)",
+					"var.right_flame_sy" : "if(frame_counter == var.prev_frame, var.right_flame_sy, clamp(var.totalspeed2/10 * var.fallflyinglerpslow* var.teto_s_mult,0,3))",
+					"right_flame.sy": "var.right_flame_sy",
+
+					"var.rflame1_sy": "if(frame_counter == var.prev_frame, var.rflame1_sy, abs(sin(time/1.2)))",
+					"rflame1.sy": "var.rflame1_sy",
+
+					"var.rflame2_sy": "if(frame_counter == var.prev_frame, var.rflame2_sy, abs(cos(time/1.2)))",
+					"rflame2.sy": "var.rflame2_sy",
+					
+					"var.left_flame_sy": "if(frame_counter == var.prev_frame, var.left_flame_sy, var.right_flame_sy)",
+					"left_flame.sy": "var.left_flame_sy",
+
 					"var.right_spring_target": "if(frame_counter == var.prev_frame, var.right_spring_target, clamp(1 - (var.yspeedcalc * 0.015 * cos(var.right_real_angle_teto)) + abs(var.right_angular_velocity) * 0.1, 0.5, 1.5))",
 					"var.right_spring_stretch": "if(frame_counter == var.prev_frame, var.right_spring_stretch, var.right_spring_stretch_prev)",
 					"var.right_spring_velocity": "if(frame_counter == var.prev_frame, var.right_spring_velocity, clamp(var.right_spring_velocity + frame_time * (-50 * (var.right_spring_stretch - var.right_spring_target) - 2.0 * var.right_spring_velocity),-3,3))",
 					"var.right_spring_stretch_new": "if(frame_counter == var.prev_frame, var.right_spring_stretch_new, var.right_spring_stretch + var.right_spring_velocity * frame_time)",
 					"var.right_spring_stretch_prev": "if(frame_counter == var.prev_frame, var.right_spring_stretch_prev, var.right_spring_stretch_new)",
-					"right_drill_scale.sy": "if(frame_counter == var.prev_frame, right_drill_scale.sy, if(var.fallflying2 == -1,0.5*(0.3 * atan((var.right_spring_stretch_new-1)/0.3)) + 1,1))",
+					"var.right_drill_scale_sy": "if(frame_counter == var.prev_frame, var.right_drill_scale_sy, if(var.fallflying2 == -1,0.5*(0.3 * atan((var.right_spring_stretch_new-1)/0.3)) + 1,1))",
+
+					"right_drill_scale.sy": "var.right_drill_scale_sy",
+					
 					"var.left_spring_target": "if(frame_counter == var.prev_frame, var.left_spring_target, clamp(1 - (var.yspeedcalc * 0.015 * cos(var.left_real_angle_teto)) + abs(var.left_angular_velocity) * 0.1, 0.5, 1.5))",
 					"var.left_spring_stretch": "if(frame_counter == var.prev_frame, var.left_spring_stretch, var.left_spring_stretch_prev)",
 					"var.left_spring_velocity": "if(frame_counter == var.prev_frame, var.left_spring_velocity, clamp(var.left_spring_velocity + frame_time * (-50 * (var.left_spring_stretch - var.left_spring_target) - 2.0 * var.left_spring_velocity),-3,3))",
 					"var.left_spring_stretch_new": "if(frame_counter == var.prev_frame, var.left_spring_stretch_new, var.left_spring_stretch + var.left_spring_velocity * frame_time)",
 					"var.left_spring_stretch_prev": "if(frame_counter == var.prev_frame, var.left_spring_stretch_prev, var.left_spring_stretch_new)",
-					"left_drill_scale.sy": "if(frame_counter == var.prev_frame, left_drill_scale.sy, if(var.fallflying2 == -1,0.5*(0.3 * atan((var.left_spring_stretch_new-1)/0.3)) + 1,1))",
+					
+					"var.left_drill_scale_sy": "if(frame_counter == var.prev_frame, var.left_drill_scale_sy, if(var.fallflying2 == -1,0.5*(0.3 * atan((var.left_spring_stretch_new-1)/0.3)) + 1,1))",
+
+					"left_drill_scale.sy": "var.left_drill_scale_sy",
 					"var.ahoge_spring_target": "if(frame_counter == var.prev_frame, var.ahoge_spring_target, clamp(1 + (var.yspeedcalc * 0.015 * cos(rot_x)), 0.5, 1.5))",
 					"var.ahoge_spring_stretch": "if(frame_counter == var.prev_frame, var.ahoge_spring_stretch, var.ahoge_spring_stretch_prev)",
 					"var.ahoge_spring_velocity": "if(frame_counter == var.prev_frame, var.ahoge_spring_velocity, clamp(var.ahoge_spring_velocity + frame_time * (-100 * (var.ahoge_spring_stretch - var.ahoge_spring_target) - 2.0 * var.ahoge_spring_velocity),-3,3))",
@@ -175,24 +190,59 @@
 					"var.ahoge_spring_stretch_prev": "if(frame_counter == var.prev_frame, var.ahoge_spring_stretch_prev, var.ahoge_spring_stretch_new)",
 					"var.ahoge_target_angle_rx": "if(frame_counter == var.prev_frame, var.ahoge_target_angle_rx, clamp(-var.xz_speed_teto * 0.04 * cos(var.angle_diff_teto),torad(-45),torad(45)) * cos(rot_x))",
 					"var.ahoge_real_angle_rx": "if(frame_counter == var.prev_frame, var.ahoge_real_angle_rx, var.ahoge_real_angle_rx - (var.ahoge_real_angle_rx - var.ahoge_target_angle_rx)/10)",
-					"ahoge.rx": "if(frame_counter == var.prev_frame, ahoge.rx, var.ahoge_real_angle_rx)",
-					"ahoge.sy": "if(frame_counter == var.prev_frame, ahoge.sy, if(var.fallflying2 == -1,0.5*(0.3 * atan((var.ahoge_spring_stretch_new-1)/0.3)) + 1,1))",
-					"var.teto_xz_stretch": "if(frame_counter == var.prev_frame, var.teto_xz_stretch, 0)",
-					"left_drill_scale.sx": "if(frame_counter == var.prev_frame, left_drill_scale.sx, if(var.teto_xz_stretch ==1,1/sqrt(left_drill_scale.sy),1))",
-					"left_drill_scale.sz": "if(frame_counter == var.prev_frame, left_drill_scale.sz, if(var.teto_xz_stretch ==1,1/sqrt(left_drill_scale.sy),1))",
-					"right_drill_scale.sx": "if(frame_counter == var.prev_frame, right_drill_scale.sx, if(var.teto_xz_stretch ==1,1/sqrt(right_drill_scale.sy),1))",
-					"right_drill_scale.sz": "if(frame_counter == var.prev_frame, right_drill_scale.sz, if(var.teto_xz_stretch ==1,1/sqrt(right_drill_scale.sy),1))",
-					"lflame1.sy": "if(frame_counter == var.prev_frame, lflame1.sy, rflame1.sy)",
-					"lflame2.sy": "if(frame_counter == var.prev_frame, lflame2.sy, rflame2.sy)",
-					"right_drill.rx": "if(frame_counter == var.prev_frame, right_drill.rx, var.right_real_angle_teto)",
-					"right_drill.ty": "if(frame_counter == var.prev_frame, right_drill.ty, -30 - if(var.helmet ==1,((var.fallflyinglerp2) * 1.3),((var.fallflyinglerp2) * 1.3)))",
-					"right_drill.tz": "if(frame_counter == var.prev_frame, right_drill.tz, 2 + if(var.helmet ==1,((var.fallflyinglerp2) * 1.7),((var.fallflyinglerp2) * 1.2)))",
-					"right_drill.tx": "if(frame_counter == var.prev_frame, right_drill.tx, -6 - var.helmet)",
-					"left_drill.rx": "if(frame_counter == var.prev_frame, left_drill.rx, var.left_real_angle_teto)",
-					"left_drill.ty": "if(frame_counter == var.prev_frame, left_drill.ty, -30- if(var.helmet ==1,((var.fallflyinglerp2) * 1.3),((var.fallflyinglerp2) * 1.3)))",
 					
-					"left_drill.tz": "if(frame_counter == var.prev_frame, left_drill.tz, 2 + if(var.helmet ==1,((var.fallflyinglerp2) * 1.7),((var.fallflyinglerp2) * 1.2)))",
-					"left_drill.tx": "if(frame_counter == var.prev_frame, left_drill.tx, 6 + var.helmet)",
+					"var.ahoge_rx": "if(frame_counter == var.prev_frame, var.ahoge_rx, var.ahoge_real_angle_rx)",
+					"ahoge.rx": "var.ahoge_rx",
+
+					"var.ahoge_sy": "if(frame_counter == var.prev_frame, var.ahoge_sy, if(var.fallflying2 == -1,0.5*(0.3 * atan((var.ahoge_spring_stretch_new-1)/0.3)) + 1,1))",
+					"ahoge.sy": "var.ahoge_sy",
+
+					"var.teto_xz_stretch": "if(frame_counter == var.prev_frame, var.teto_xz_stretch, 0)",
+
+					"var.left_drill_scale_sx": "if(frame_counter == var.prev_frame, var.left_drill_scale_sx, if(var.teto_xz_stretch ==1,1/sqrt(var.left_drill_scale_sy),1))",
+					"left_drill_scale.sx": "var.left_drill_scale_sx",
+
+					"var.left_drill_scale_sz": "if(frame_counter == var.prev_frame, var.left_drill_scale_sz, if(var.teto_xz_stretch ==1,1/sqrt(var.left_drill_scale_sy),1))",
+					"left_drill_scale.sz": "var.left_drill_scale_sz",
+
+					"var.right_drill_scale_sx": "if(frame_counter == var.prev_frame, var.right_drill_scale_sx, if(var.teto_xz_stretch ==1,1/sqrt(var.left_drill_scale_sy),1))",
+					"right_drill_scale.sx": "var.right_drill_scale_sx",
+
+					"var.right_drill_scale_sz": "if(frame_counter == var.prev_frame, var.right_drill_scale_sz, if(var.teto_xz_stretch ==1,1/sqrt(var.left_drill_scale_sy),1))",
+					"right_drill_scale.sz": "var.right_drill_scale_sz",
+
+
+					"var.lflame1_sy": "if(frame_counter == var.prev_frame, var.lflame1_sy, var.rflame1_sy)",
+					"lflame1.sy": "var.lflame1_sy",
+					"lflame2.sy": "var.lflame1_sy",
+
+					"var.right_drill_rx": "if(frame_counter == var.prev_frame, var.right_drill_rx, var.right_real_angle_teto)",
+					"right_drill.rx": "var.right_drill_rx",
+
+					"var.right_drill_ty": "if(frame_counter == var.prev_frame, var.right_drill_ty, -30 - if(var.helmet == 1,((var.fallflyinglerp2) * 1.3),((var.fallflyinglerp2) * 1.3)))",
+					"right_drill.ty": "var.right_drill_ty",
+
+					"var.right_drill_tz": "if(frame_counter == var.prev_frame, var.right_drill_tz, 2 + if(var.helmet == 1,((var.fallflyinglerp2) * 1.7),((var.fallflyinglerp2) * 1.2)))",
+					"right_drill.tz": "var.right_drill_tz",
+					
+					"var.right_drill_tx": "if(frame_counter == var.prev_frame, var.right_drill_tx, -6 - var.helmet)",
+					"right_drill.tx": "var.right_drill_tx",
+					
+					"var.left_drill_rx": "if(frame_counter == var.prev_frame, var.left_drill_rx, var.left_real_angle_teto)",
+					"left_drill.rx": "var.left_drill_rx",
+					
+					"var.left_drill_ty": "if(frame_counter == var.prev_frame, var.left_drill_ty, -30 - if(var.helmet == 1,((var.fallflyinglerp2) * 1.3),((var.fallflyinglerp2) * 1.3)))",
+					"left_drill.ty": "var.left_drill_ty",
+
+
+					"var.left_drill_tz": "if(frame_counter == var.prev_frame, var.left_drill_tz, 2 + if(var.helmet == 1,((var.fallflyinglerp2) * 1.7),((var.fallflyinglerp2) * 1.2)))",
+					"left_drill.tz": "var.left_drill_tz",
+
+
+					"var.left_drill_tx": "if(frame_counter == var.prev_frame, var.left_drill_tx, 6 + var.helmet)",
+					"left_drill.tx": "var.left_drill_tx",
+
+
 					"var.counter42": "if(frame_counter == var.prev_frame, var.counter42, var.counter4prev2)",
 					"var.counter4prev2": "if(frame_counter == var.prev_frame, var.counter4prev2, pos_y)",
 					"var.counter82": "if(frame_counter == var.prev_frame, var.counter82, var.counter8prev2)",
@@ -201,6 +251,7 @@
 					"var.counter9prev2": "if(frame_counter == var.prev_frame, var.counter9prev2, pos_z)",
 					"var.tetocounter1": "if(frame_counter == var.prev_frame, var.tetocounter1, var.tetocounter1prev)",
 					"var.tetocounter1prev": "if(frame_counter == var.prev_frame, var.tetocounter1prev, rot_y)",
+					"var.prev_id": "id",
 					"var.prev_frame": "frame_counter"
 				}
 			]
