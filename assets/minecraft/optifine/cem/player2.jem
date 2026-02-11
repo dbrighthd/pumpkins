@@ -214,7 +214,7 @@
 
 					"var.lflame1_sy": "if(frame_counter == var.prev_frame, var.lflame1_sy, var.rflame1_sy)",
 					"lflame1.sy": "var.lflame1_sy",
-					"lflame2.sy": "var.lflame1_sy",
+					"lflame2.sy": "var.rflame2_sy",
 
 					"var.right_drill_rx": "if(frame_counter == var.prev_frame, var.right_drill_rx, var.right_real_angle_teto)",
 					"right_drill.rx": "var.right_drill_rx",

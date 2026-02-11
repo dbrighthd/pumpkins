@@ -208,7 +208,8 @@
       {
         "when": [
           "Mesmerizer Teto",
-          "iregex:.*mesmerizer.*teto.*"
+          "iregex:.*mesmerizer.*teto.*",
+          "iregex:.*ruwuby.*teto.*"
         ],
         "model": {
           "type": "minecraft:select",
