@@ -6,6 +6,16 @@
     "cases": [
       {
         "when": [
+          "Core Handles",
+          "iregex:.*core.*handles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/references/portal/core_handles"
+        }
+      },
+      {
+        "when": [
           "Creaking",
           "iregex:.*Creaking.*"
         ],
