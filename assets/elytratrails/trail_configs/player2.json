@@ -1,0 +1,8 @@
+{
+  "defaults": {
+    "parentPreset": "jet_engine",
+    "distanceTillTrailStart" : 0.0,
+    "speedDependentTrail" : false,
+    "trailMinSpeed" : 0.8
+  }
+}
