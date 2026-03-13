@@ -41,7 +41,7 @@
 								{
 									"id": "leftwingtip",
 									"invertAxis": "xy",
-									"translate": [2, 0, 0]
+									"translate": [2, 3, 0]
 								},
 								{
 									"id": "right_flame",
@@ -96,7 +96,7 @@
 								{
 									"id": "rightwingtip",
 									"invertAxis": "xy",
-									"translate": [-2, 0, 0]
+									"translate": [-2, 3, 0]
 								},
 								{
 									"id": "left_flame",
@@ -146,12 +146,14 @@
 					"var.angle_diff_teto": "if(frame_counter == var.prev_frame, var.angle_diff_teto, (rot_y+head.ry-pi)-var.movement_xz_angle_teto)",
 					"var.left_teto_linear_vel": "if(frame_counter == var.prev_frame, var.left_teto_linear_vel, -2 * var.rot_yspeed2)",
 					"var.right_teto_linear_vel": "if(frame_counter == var.prev_frame, var.right_teto_linear_vel, 2 * var.rot_yspeed2)",
+					"var.xz_speed_teto_fallflying": "if(frame_counter == var.prev_frame, var.xz_speed_teto_fallflying, sqrt(pow(var.xspeedcalc,2) + pow(var.zspeedcalc,2)))",
+					"var.teto_vert_angle_fallflying": "if(frame_counter == var.prev_frame, var.teto_vert_angle_fallflying, atan2(var.yspeedcalc,var.xz_speed_teto_fallflying))",
 					"var.left_angular_velocity": "if(frame_counter == var.prev_frame, var.left_angular_velocity, var.left_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto)+ var.left_teto_linear_vel)*cos(var.left_target_angle_teto+(if(is_crawling,torad(45),rot_x))) - var.left_angular_velocity - 50 * sin(var.left_target_angle_teto+(if(is_crawling,torad(45),rot_x))) + var.yspeed2 * sin(var.left_target_angle_teto+(if(is_crawling,torad(45),rot_x))) - 0.6 * var.left_angular_velocity))",
 					"var.left_real_angle_teto": "if(frame_counter == var.prev_frame, var.left_real_angle_teto, var.left_real_angle_teto - (var.left_real_angle_teto-(var.left_target_angle_teto))/2)",
-					"var.left_target_angle_teto": "if(frame_counter == var.prev_frame, var.left_target_angle_teto, if(var.fallflying2 == -1, (var.left_target_angle_teto + (frame_time * var.left_angular_velocity)), -var.fallflyinglerp2*torad(135)))",
+					"var.left_target_angle_teto": "if(frame_counter == var.prev_frame, var.left_target_angle_teto, if(var.fallflying2 == -1, (var.left_target_angle_teto + (frame_time * var.left_angular_velocity)), var.fallflyinglerp2*(var.use_contrail*( var.teto_vert_angle_fallflying - (rot_x)) - (torad(135)))))",
 					"var.right_angular_velocity": "if(frame_counter == var.prev_frame, var.right_angular_velocity, var.right_angular_velocity + frame_time * ((var.xz_speed_teto * cos(var.angle_diff_teto) + var.right_teto_linear_vel)*cos(var.right_target_angle_teto+(if(is_crawling,torad(45),rot_x))) - var.right_angular_velocity - 50 * sin(var.right_target_angle_teto+(if(is_crawling,torad(45),rot_x))) + var.yspeed2 * sin(var.right_target_angle_teto+(if(is_crawling,torad(45),rot_x)))- 0.6 * var.right_angular_velocity))",
 					"var.right_real_angle_teto": "if(frame_counter == var.prev_frame, var.right_real_angle_teto, var.right_real_angle_teto - (var.right_real_angle_teto-(var.right_target_angle_teto))/2)",
-					"var.right_target_angle_teto": "if(frame_counter == var.prev_frame, var.right_target_angle_teto, if(var.fallflying2 == -1, (var.right_target_angle_teto + (frame_time * var.right_angular_velocity)), -var.fallflyinglerp2*torad(135)))",
+					"var.right_target_angle_teto": "if(frame_counter == var.prev_frame, var.right_target_angle_teto, if(var.fallflying2 == -1, (var.right_target_angle_teto + (frame_time * var.right_angular_velocity)), var.fallflyinglerp2*(var.use_contrail*( var.teto_vert_angle_fallflying - (rot_x)) - (torad(135)))))",
 					"var.xz_speed_teto": "if(frame_counter == var.prev_frame, var.xz_speed_teto, sqrt(pow(var.xspeed2,2) + pow(var.zspeed2,2)))",
 					"var.teto_vert_angle": "if(frame_counter == var.prev_frame, var.teto_vert_angle, atan2(var.yspeed2,var.xz_speed_teto))",
 					"var.teto_s_mult": "if(frame_counter == var.prev_frame, var.teto_s_mult, clamp(cos(var.teto_vert_angle - (rot_x)), 0,1))",
@@ -168,10 +170,9 @@
 					"var.rflame1_sy": "if(frame_counter == var.prev_frame, var.rflame1_sy, abs(sin(time/1.2)))",
 					"rflame1.sy": "var.rflame1_sy",
 					"var.rflame2_sy": "if(frame_counter == var.prev_frame, var.rflame2_sy, abs(cos(time/1.2)))",
-					"var.use_contrail" : "if(nbt(equipment.head,raw:iregex:.*contrail.*),1,0)",
+					"var.use_contrail": "if(nbt(equipment.head,raw:iregex:.*contrail.*),1,0)",
 					"leftwingtip.visible": "var.use_contrail == 1 && right_flame.sy > 0.2",
 					"rightwingtip.visible": "var.use_contrail == 1 && right_flame.sy > 0.2",
-
 					"rflame2.sy": "var.rflame2_sy",
 					"var.left_flame_sy": "if(frame_counter == var.prev_frame, var.left_flame_sy, var.right_flame_sy)",
 					"left_flame.sy": "var.left_flame_sy",
