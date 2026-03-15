@@ -160,7 +160,7 @@
 					"var.totalspeed2": "if(frame_counter == var.prev_frame, var.totalspeed2, sqrt((var.xspeed2 * var.xspeed2) + (var.yspeed2 * var.yspeed2) + (var.zspeed2 * var.zspeed2)))",
 					"var.fallflying2": "if(frame_counter == var.prev_frame, var.fallflying2, if(nbt(FallFlying,raw:1b),1,-1))",
 					"var.helmet": "if(frame_counter == var.prev_frame, var.helmet, if(nbt(equipment.head,raw:iregex:.*helmet.*),1,0))",
-					"var.ahoge_visible": "if(frame_counter == var.prev_frame, var.ahoge_visible, (if(var.helmet == 1, false, true)))",
+					"var.ahoge_visible": "if(frame_counter == var.prev_frame, var.ahoge_visible, (if(var.helmet == 1, 0, 1)))",
 					"ahoge.visible": "var.ahoge_visible == 1",
 					"var.isinvis": "if(frame_counter == var.prev_frame, var.isinvis, if(nbt(equipment.chest,raw:iregex:.*invisible.*),0,1))",
 					"var.fallflyinglerp2": "if(frame_counter == var.prev_frame, var.fallflyinglerp2, clamp(var.fallflyinglerp2 + 2*frame_time * var.fallflying2,0,1))",

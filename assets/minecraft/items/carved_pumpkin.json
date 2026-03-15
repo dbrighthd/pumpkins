@@ -241,6 +241,32 @@
       },
       {
         "when": [
+          "Regret Rock Teto",
+          "iregex:.*regret.*teto.*",
+          "iregex:.*menace.*teto.*",
+          "iregex:.*minimum.*teto.*",
+          "iregex:.*rage.*teto.*"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:context_entity_type",
+          "cases": [
+            {
+              "when": "minecraft:armor_stand",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:block/pumpkins/references/triplebaka/regret_teto/armorstand_pumpkin"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/pumpkins/references/triplebaka/regret_teto/pumpkin"
+          }
+        }
+      },
+      {
+        "when": [
           "Purple Teto",
           "iregex:.*purple.*teto.*"
         ],
