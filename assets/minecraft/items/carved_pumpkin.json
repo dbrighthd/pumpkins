@@ -6,6 +6,16 @@
     "cases": [
       {
         "when": [
+          "Menace",
+          "iregex:.*Menace.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/pumpkins/references/menace/pumpkin"
+        }
+      },
+      {
+        "when": [
           "Core Handles",
           "iregex:.*core.*handles.*"
         ],

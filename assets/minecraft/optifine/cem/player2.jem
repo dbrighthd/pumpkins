@@ -132,7 +132,7 @@
 			"animations": [
 				{
 					"var.maxspeed": "if(frame_counter == var.prev_frame, var.maxspeed, 500)",
-					"var.safe_frame_time" : "if(frame_time == 0, 0.0000001, frame_time)",
+					"var.safe_frame_time": "if(frame_time == 0, 0.0000001, frame_time)",
 					"var.yspeedcalc": "if(frame_counter == var.prev_frame, var.yspeedcalc, clamp((var.counter42-pos_y)/(var.safe_frame_time),-var.maxspeed,var.maxspeed))",
 					"var.zspeedcalc": "if(frame_counter == var.prev_frame, var.zspeedcalc, clamp(((var.counter92-pos_z)/(var.safe_frame_time)),-var.maxspeed,var.maxspeed))",
 					"var.xspeedcalc": "if(frame_counter == var.prev_frame, var.xspeedcalc, clamp(((var.counter82-pos_x)/(var.safe_frame_time)),-var.maxspeed,var.maxspeed))",
